@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <body>
+    <head>
+    <title>A test</title>
+    <style>
+        .form label {
+            display: inline-block;
+            width: 100px;
+        }
+        
+        .title {
+            background-color: lightgrey;
+        }
+    </style>
+    </head>
+    <h1> Bobs Auto Parts </h1>
+    
+    <h2> Order Form</h2>
+    
+    <form class = "form" method="post" action ="bobs.php">
+    <label class = "title">Item</label> <label style = "width: 132px" class = "title">Quanity</label>
+    <p>
+    <label>Tires</label> <input type="text" name="tireqty"/>
+    </p>
+    <p>
+    <label>Oil</label> <input type="text" name="oilqty"/>
+    </p>
+    <p>
+    <label>Spark Plugs</label> <input type="text" name="sparkqty"/>
+    </p>
+    <p>
+    <label>Shipping Address</label> <input type="text"/>
+    </p>
+    <button type="submit">Submit Order </button>
+        </form>
+    </body>
+</html>
+        

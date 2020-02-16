@@ -1,0 +1,1091 @@
+body {
+    margin: auto 0;
+    padding: 0;
+	border: 0;
+    min-width: 1000px;
+    background-image: url(Images/background.jpeg);
+    background-size: 200px 150px;
+    vertical-align: baseline;
+}
+
+/* General Styles */
+h1 {
+    font-size: 1.9em;
+    font-family: 'Cormorant Infant'; 
+    font-weight: 600;
+    color: darkgreen;
+    text-shadow: 1px 1px orange;
+}
+
+h2, h3 {
+    font-size: 1.6em;
+    font-family: 'Cormorant Infant';
+    border-bottom: 2px darkgreen solid;
+    padding: .3em;
+    color: navy;
+    
+}
+
+h3 {
+    color: black;
+    font-size: 1.4em;
+}
+
+p {
+  font-family: 'Varela Round';
+  letter-spacing: .02em;
+  color: black;
+  padding: .3em; 
+  padding-left: 1em;
+}
+
+ul, li, a {
+ font-family: "Courier New";   
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Cormorant Infant'; 
+    font-weight: bold;
+    color: crimson;
+    font-size: 1.2em;
+}
+
+a:visited {
+    color: darkgreen;
+}
+
+a:hover {
+    color: navy;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+dt {
+    font-weight: bold;
+    color: darkgreen;
+    font-family: Georgia, serif;
+}
+
+dd {
+    font-family: Georgia, serif;
+    margin-bottom: 1em;
+}
+
+.forum_table {
+    border: 0;
+    border-collapse: collapse;
+    display: block;
+    overflow-x: scroll;
+    
+}
+
+    .forum_table th {
+        font-size: 25px;
+        background: -webkit-linear-gradient(bottom right, pink, yellow);
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px aqua;
+        color: brown;
+        padding: .2em 1em .2em 1em;
+        border: 2.6px solid black;
+    }
+
+    .forum_table td {
+        font-family: 'Cormorant Infant';
+        font-size: 18.5px;
+        padding: .2em 1em .2em 1em;
+        border: 2.6px solid black;
+        background-color: #e3ebee;
+    }
+
+.forum_table_view {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e3ebee;
+}
+
+    .forum_table_view th {
+        font-family: 'Cormorant Infant';
+        font-size: 25px;
+        background: -webkit-linear-gradient(bottom right, lightgreen, yellow);
+        padding: .2em 1em .2em 1em;
+        color: azure;
+        text-shadow: 1px 1px magenta;
+        border: 2.6px solid black;
+    }
+
+    .forum_table_view td {
+        font-family: 'Cormorant Infant';
+        font-size: 18.5px;
+        padding: .2em 1em .2em 1em;
+        border: 2.6px solid black;
+    }
+
+.forum-new_post {
+    background: -webkit-linear-gradient(bottom right, lightgreen, lightblue);
+    border: 2px solid darkblue;
+}
+    
+    .forum-new_post fieldset {
+        border: 0;
+    }
+
+    .forum-new_post label {
+        display: inline-block;
+        width: 100px;
+    }
+    
+    .forum-new_post input {
+        border: 2px solid purple;
+    }
+
+    .forum-new_post input[type= "submit"] {
+        font-family: 'Varela Round';
+        font-size: 15px;
+        background-color: lightblue;
+    }
+
+    .forum-new_post input[type= "submit"]:hover {
+        color: aliceblue;
+        background-color: crimson;
+    }
+
+    .forum-new_post textarea {
+        border: 2px solid purple;
+        margin-left: 1.5em;
+    }
+
+.forum-new_category {
+    background: -webkit-linear-gradient(bottom right, lightgreen, lightblue);
+    border: 2px solid darkblue;
+    overflow-x: scroll;
+}
+
+    .forum-new_category fieldset {
+         border: 0; 
+    }
+
+    .forum-new_category input {
+        border: 2px solid purple;
+    }
+
+    .forum-new_category input[type = 'submit'] {
+        margin-left: 15px;
+        font-size: 15px;
+        background-color: lightblue;
+    }
+
+    .forum-new_category input[type = 'submit']:hover {
+        color: aliceblue;
+        background-color: crimson;
+    }
+
+.form-login {
+    background: -webkit-linear-gradient(bottom right, lightgreen, lightblue);
+    border: 2px solid darkblue;
+}
+
+    .form-login fieldset {
+        border: 0;
+    }
+
+    .form-login label {
+        display: inline-block;
+        width: 100px;
+    }
+    
+    .form-login input {
+        border: 2px solid purple;
+    }
+
+    .form-login legend {
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px red;
+        font-size: 30px;
+        margin-left: 35%;
+    }
+
+    .form-login input[type= "submit"] {
+        margin-left: 10.65em;
+        width: 6em;
+        font-family: 'Varela Round';
+        font-size: 15px;
+        background-color: lightblue;
+    }
+
+    .form-login input[type= "submit"]:hover {
+        color: aliceblue;
+        background-color: crimson;
+    }
+
+.form-forgot {
+    background: -webkit-linear-gradient(bottom right, lightgreen, lightblue);
+    border: 2px solid darkblue;
+}
+
+     .form-forgot fieldset {
+        border: 0;
+    }
+
+     .form-forgot input {
+        border: 2px solid purple;
+    }
+
+    .form-forgot label {
+        display: inline-block;
+        width: 100px;
+    }
+    
+    .form-forgot legend {
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px red;
+        font-size: 30px;
+        margin-left: 25%;
+    }
+
+    .form-forgot input[type= "submit"] {
+        margin-left: 5.1em;
+        width: 10em;
+        font-family: 'Varela Round';
+        font-size: 15px;
+        background-color: lightblue;
+    }
+    
+    .form-forgot input[type= "submit"]:hover {
+        color: aliceblue;
+        background-color: crimson;
+    }
+
+
+.form-register {
+    background: -webkit-linear-gradient(bottom right, lightgreen, lightblue);
+    border: 2px solid darkblue;
+}
+
+    .form-register fieldset {
+        border: 0;
+    }
+
+    .form-register input {
+        border: 2px solid purple;
+    }
+
+    .form-register label {
+        display: inline-block;
+        width: 200px;
+    }
+
+    .form-register legend {
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px red;
+        font-size: 30px;
+        margin-left: 35%;
+    }
+
+    .form-register input[type= "submit"] {
+        margin-left: 15.8em;
+        width: 6em;
+        font-family: 'Varela Round';
+        font-size: 15px;
+        background-color: lightblue;
+    }
+
+    .form-register input[type= "submit"]:hover {
+        color: aliceblue;
+        background-color: crimson;
+    }
+
+.next {
+    float: right;
+}
+
+.blue {
+    color: blue
+}
+
+.code {
+    border: 4px darkgreen solid;
+    padding: 1em 1em 1em;
+    color: navy;
+    font-family: 'Minion Pro';
+    font-size: 18px;
+    overflow-x: scroll;
+}
+
+.comments {
+    color: grey;
+}
+
+.highlight {
+    color:red;
+}
+
+.highlight2 {
+    color: purple;
+}
+
+.highlight3 {
+    color: darkgreen;
+}
+
+.highlight4 {
+    color: orange;
+}
+    
+/* header styles */
+.titlez {
+    min-width: 1000px;
+    font-family:  'Cormorant Infant'; 
+    font-weight: bold;
+    font-size: 45px;
+    text-shadow: 1px 1px red;
+    border: solid 4px navy;
+    color: white;
+    padding-top: .3em;
+    padding-bottom: .3em;
+    background-image: -webkit-linear-gradient(right, rgb(93,43,78), rgb(8,2,50));
+    margin-bottom: 3px;
+    width: 100%;
+    height: 132px;
+    padding-left: 15px;
+}
+    
+     .titlez .img img {
+         display: none;
+    }
+    
+    .titlez .img ul li ul {
+        display: none;
+    }
+
+
+#menu_title {
+    text-align: left;
+    font-family: 'Cormorant Infant'; 
+    font-weight: bold;
+    text-shadow: 1px 1px greenyellow;
+    color: crimson;
+    font-size: 38px;
+    padding-left: .5em;
+    margin-top: .2em;
+    margin-bottom: .6em;
+}
+
+#headz {
+    text-align: center;
+    width: 100%;
+}
+
+/* main content styles */
+#rightz{
+    max-width: 1000px;
+    float: ;
+    width: 65%;
+    margin-top: 2.5%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    padding-right: 2.5%;
+    padding-left: 3%;
+    background-color: white;
+    border: 4px navy solid;
+    outline: 5px lightcyan solid;
+    overflow: hidden;
+}
+
+.video {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+
+.video iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* left side bar styles */
+#leftz{
+    max-width: 250px;
+    float: left;
+    width: 20%;
+    padding-right: 1%;
+    padding-left: ;
+    margin-right: 3%;
+    margin-left: 1.5%;
+    margin-bottom: 2%;
+    background-image: url(Images/code.jpg);
+    background-repeat: ;
+    background-size: cover;
+    border: 4px navy solid;
+    outline: 5px lightcyan solid;
+    margin-bottom: ;
+    clear: ;
+}
+
+    #leftz ul li {
+        font-size: 33px;
+        text-align: right;
+        font-family: 'Cormorant Infant'; 
+        font-weight: bold;
+        text-shadow: 1px 1px blue;
+        color: crimson;
+        padding: 0 0 10px 0;
+        margin: 0 0 0 0;
+    }
+
+    #leftz li, #leftz li a {
+        list-style: none;
+        font-family: 'Cormorant Infant'; 
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: -1.6em;
+        color: mediumvioletred;
+        margin-left: ;
+        display: block;
+    }
+
+    #leftz li a {
+        padding: 5px;
+        border: 3px navy solid;
+        background: -webkit-linear-gradient(bottom right, lightgreen, lightblue);
+        -webkit-transition: all .8s ease-in-out;
+	   -moz-transition: all .8s ease-in-out;
+	   -o-transition: all .8s ease-in-out;
+        transition: all .8s ease-in-out;
+        border-radius: 7px;
+    }
+
+    #leftz ul {
+        margin-top: -.01em;
+    }
+
+    #leftz a:hover{
+        color: blue;
+        background: -webkit-linear-gradient(top left, rgb(255,255,255), rgb(8,2,50));
+        text-decoration: underline;
+    }
+
+    #leftz a:active{
+        color: red;
+    }
+
+/* Navigation styles */
+.navz {
+    min-width: 1000px;
+    padding-top: .15em;
+    padding-right: 6px;
+
+    border-collapse: collapse;
+    padding-bottom: 1.8em;
+    width: 100%;
+}
+
+    .navz ul {
+        margin-left: -2.3em;
+        margin-top: -.5em;
+        margin-bottom: -.05em;    
+    }
+
+    .navz li  {
+        display: block;
+        list-style-type: none;   
+        margin: -.3em;
+    }
+
+    .navz li ul {
+        display: none;
+    }
+
+    .navz ul li:hover ul {
+        display: inline;
+        position: absolute;
+        width: 100px;
+        margin-left: -177px;
+        z-index: ;
+    }
+
+    .navz ul ul li a {
+        display: block;
+        width: 135px;
+        position: relative;
+        top: 47px;
+        z-index: 1;
+    }
+
+    .navz li a {
+        display: block;
+        font-family: 'Cormorant Infant'; 
+        font-size: 20px;
+        font-weight: bold;
+        color: aqua; 
+        text-shadow: 1px 1px purple;
+        text-decoration: none;
+        border: navy solid 3px;
+        background: -webkit-linear-gradient(top left, rgb(93,43,78), rgb(8,2,50));
+        text-align: center;
+        float: left;
+        padding-top: .3em;
+        width: 135px;
+        -webkit-transition:  background color .8s ease-in-out;
+        -moz-transition: background color .8s ease-in-out;
+        -o-transition: background color .8s ease-in-out;
+        transition: all .8s ease-in-out;
+        border-radius: 8px;
+    }
+
+
+    .navz a:hover{
+        color: blue;
+        background: -webkit-linear-gradient(top left, rgb(255,255,255), rgb(8,2,50));
+        text-decoration: underline;
+    }
+
+    .navz a:active{
+        color:red;
+        background-color:midnightblue;
+    }
+
+/* footer styles */
+#footerz {
+    border: solid 4px navy;
+    height: 417px;
+    background-image: -webkit-linear-gradient(right, rgb(93,43,78), rgb(8,2,50));
+    clear: both;
+    text-align: center;
+    width: 100%;
+    margin-bottom: -20px;
+    padding-right: 15.3px;
+}
+
+    #footerz fieldset {
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px red;
+        font-size: 40px;
+        clear: left;
+        width: 350px;
+        height: 288px;
+        margin: 10px 0px 20px 20px;
+        float: left;
+        color: white;    
+    }
+
+    #footerz ul {
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px red;
+        list-style-type: none;
+        color: white;
+        text-align: left;
+        float: left; 
+        padding-left: 110px;
+    }
+
+    #footerz ul li span {
+        font-family: 'Cormorant Infant';
+        text-shadow: 1px 1px red;
+        font-size: 25px;
+        list-style-type: none;
+    }
+
+    #footerz ul li a {
+        font-family: 'Cormorant Infant';
+        text-shadow: .2px .6px purple;
+        font-size: 25px;
+        color: aqua;
+    }
+
+    #footerz ul li {
+        margin-bottom: .5em;
+    }
+
+    #footerz p {
+        font-size: 15px;
+        color: white;
+    }
+
+/*    #footerz label {
+        display: inline-block;
+        width: 5px;
+    }
+
+    #footerz input {
+        float: right;
+        margin-left: 80px;
+    }
+
+    #footerz textarea {
+        float: right;
+        margin-left: 90px;
+    }
+
+    #footerz .submit {
+        float: right;
+        margin-right: 5px;
+        margin-top: 10px;
+    } */
+
+    #footerz .footer {
+        padding-top: 2em;
+        font-size: 20px;
+        clear: left;    
+    }
+
+.red {
+    color: red;
+}
+
+pre {
+    padding: 0;
+    margin: 0;
+}
+
+.nl {
+    display: block;
+    margin-top: 1em;
+}
+
+.li li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+.ol li {
+    margin-bottom: 1.5em;
+}
+
+#li li {
+    list-style-type: none;
+    margin-bottom: 1em;
+}
+
+#li2 li {
+    margin-bottom: 1em;
+}
+
+figure {
+    margin: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 100px;
+    left: 5px;
+}
+
+
+.wrapper2 {
+    position: absolute;
+    top: 136px;
+    left: 5px;
+}
+
+.mainWrapper {
+    
+}
+
+/* Tablets */
+@media (min-width: 481px) and (max-width:768px) {    
+    body {
+        min-width: 481px;
+    }
+    
+    .form-register label {
+        display: inline-block;
+        width: 120px;
+    }
+    
+    .form-register input[type= "submit"] {
+        margin-left: 10.3em;
+        width: 6em;
+    }
+    
+    #rightz a {
+        font-size: 110%;
+    }
+    
+    #rightz li {
+        font-size: 85%;
+    }
+    
+    h1 {
+        font-size: 130%;
+    }
+    
+    h2, h3 {
+        font-size: 110%;
+    }
+    
+    p {
+        font-size: .9em;
+    }
+    
+    .code {
+        font-size: 85%;
+        overflow-x: scroll;
+    }
+    
+    .navz {
+        display: none;
+    }
+    
+    .titlez {
+        font-size: 33px;
+        max-width: 761px;
+        min-width: 481px;
+        padding-right: ;
+        margin-right: ;
+        overflow-x: hidden;
+    }
+    
+    .titlez .img img {
+        display: block;
+        height: 60px;
+        width: 90px;
+        border: 2px solid blue;
+        margin-top: 20px;
+        float: left;
+    }
+    
+    .titlez .img ul {
+        margin-left: -1.3em;
+        margin-top: -.5em;
+    }
+    
+    .titlez .img ul li {
+     margin-top: -1em;
+     list-style-type: none;
+    }   
+    
+    .titlez .img li ul {
+     display: none;   
+    }
+    
+    .titlez .img ul li:hover ul {
+        display: inline;   
+        position: absolute;
+        top: 110px;
+        left: 19px;
+    }
+    
+    .titlez .img ul li ul li:first-child {
+        margin-top: 2.1em;
+       left: 2px;
+    }
+    
+    .titlez .img ul li ul li {
+        font-size: 20px;
+        width: 150px;
+        padding: 7px 10px 15px 10px;
+        font-weight: bold;
+        text-decoration: none;
+        border: navy solid 3px;
+        background: white;
+        text-align: center;
+    }
+    
+    .titlez .img ul li ul li:last-child {
+     padding-bottom: 0px;   
+    }
+        
+    #rightz {
+        margin-right: 0%;
+        margin-left: 2%;
+        width: 87%;
+    }
+    
+    #leftz {
+        width: 180px;
+        position:absolute;
+        top: 75px;
+        right: 20px;
+    }
+    
+    #leftz ul li ul {
+        max-height: 500px;
+        overflow-y: scroll;
+    }
+    
+    #leftz li ul {
+        display: none;
+    }
+    
+     #leftz ul li:hover ul {
+        position:absolute;
+        display: inline;
+        top: 36px;
+        right: -10px;
+
+    }
+    
+    #leftz ul li {
+        font-size: 29px;
+        text-align: right;
+        font-family: 'Cormorant Infant'; 
+        font-weight: bold;
+        text-shadow: 1px 1px greenyellow;
+        color: crimson;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    
+    #leftz ul li ul li {
+        margin: 0 0 0 0;
+        padding: 0px;
+    }
+    
+    #leftz ul li a {
+        width: 150px;
+        font-size: 20px;
+        color: darkgreen;
+        text-shadow: 1px 1px red;
+        width: 150px;
+        font-weight: bold;
+        text-decoration: none;
+        border: navy solid 3px;
+        background: white;
+        text-align: center;
+        transition: none;
+        border-radius: 0;
+    }
+    
+    #leftz ul li a:hover {
+        background: white;
+    }
+    
+    #footerz {
+        max-width: 761px;
+        min-width: 481px;
+        padding-right: .9em;
+        margin-right: 0;
+        height: 5em;
+    }
+    
+    /* #footerz fieldset {
+        margin-left: 15%;
+        margin-right: 10%;
+        width: 60%;
+        float: none;
+    } */
+    
+    #footerz ul {
+        display: none;
+    }
+    
+    #footerz .footer {
+        padding-top: .5em;
+    }
+}
+
+/* Mobile Device */
+@media (max-width: 480px) {   
+    body {
+        min-width: 320px;
+    }
+    
+    .navz {
+        display: none;
+    }
+    
+    .form-register label {
+        display: inline-block;
+        width: 120px;
+    }
+    
+        .form-register input[type= "text"] {
+            width: 100px;
+        }
+    
+        .form-register input[type= "submit"] {
+            margin-left: 10.3em;
+            width: 6em;
+        }
+    
+    .titlez {
+        padding-left: 0;
+        font-size: 18px;
+        min-width: 320px;
+        overflow-x: hidden;
+    }
+    
+    .titlez .img img {
+        display: block;
+        height: 50px;
+        width: 60px;
+        border: 2px solid blue;
+        margin-top: 20px;
+        float: left;
+    }
+    
+    .titlez .img ul {
+        margin-left: -1.3em;
+        margin-top: -.5em;
+    }
+    
+    .titlez .img ul li {
+     margin-top: ;
+     list-style-type: none;
+    }   
+    
+    .titlez .img li ul {
+     display: none;   
+    }
+    
+    .titlez .img ul li:hover ul {
+        display: inline;   
+        position: absolute;
+        top: 90px;
+        left: 3px;
+    }
+    
+    .titlez .img ul li ul li:first-child {
+        margin-top: 2.1em;
+        left: 2px;
+    }
+    
+    .titlez .img ul li ul li {
+        font-size: 15px;
+        width: 100px;
+        padding: 5px 3px 0 3px;
+        font-weight: bold;
+        text-decoration: none;
+        border: navy solid 3px;
+        background: white;
+        text-align: center;
+    }
+    
+    .titlez .img ul li ul li:last-child {
+     padding-bottom: 0px;   
+    }
+        
+    #rightz {
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 92%;
+        overflow-x: hidden;
+    }
+        
+    #rightz a {
+        font-size: 120%;
+    }
+    
+    #rightz li {
+        font-size: 80%;
+    }
+    
+    h1 {
+        font-size: 130%;
+    }
+    
+    h2, h3 {
+        font-size: 110%;
+    }
+    
+    p {
+        font-size: .9em;
+    }
+    
+    .code {
+        font-size: 80%;
+        overflow-x: scroll;
+    }
+
+    
+    #leftz {
+        width: 150px;
+        position:absolute;
+        top: 65px;
+        right: 5px;
+    }
+    
+    #leftz li ul {
+        display: none;
+    }
+    
+    #leftz ul li ul {
+        max-height: 350px;
+        overflow-y: scroll;
+    }
+    
+     #leftz ul li:hover ul {
+        position:absolute;
+        display: inline;
+        top: 25px;
+        right: -15px;
+    }
+    
+    #leftz ul li {
+        font-size: 20px;
+        text-align: right;
+        font-family: 'Cormorant Infant'; 
+        font-weight: bold;
+        text-shadow: 1px 1px greenyellow;
+        color: crimson;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+    
+    #leftz ul li ul li {
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    
+    #leftz ul li a {
+        width: 130px;
+        font-size: 18px;
+        color: darkgreen;
+        text-shadow: 1px 1px red;
+        font-weight: bold;
+        text-decoration: none;
+        border: navy solid 3px;
+        background: white;
+        text-align: center;
+        transition: none;
+        border-radius: 0;
+    }
+    
+    #leftz ul li a:hover {
+        background: white;
+    }
+    
+    #footerz {
+        max-width: 480px;
+        padding-right: 0;
+        margin-right: 0;
+        height: 5em;
+    }
+    
+    /* #footerz fieldset {
+        margin-left: 1%;
+        margin-right: 1%;
+        width: 40%;
+        float: none;
+    }
+    
+    #footerz fieldset {
+        font-size: 20px;
+        width: ;
+        height: ;  
+    }
+    
+    #footerz input {
+      width: 160px;
+    }
+    
+    #footerz textarea {
+       width: 160px;
+    } */
+    
+    #footerz ul {
+        display: none;
+    }
+    
+    #footerz .footer {
+        padding-top: .2em;
+    }
+}

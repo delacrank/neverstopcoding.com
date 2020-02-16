@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    
+    <head><meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html;
+	   charset=utf-8" />
+        <meta name="keywords" content="GDB" />
+        <meta name="author" content="Juan Arias" />
+        <title>Adding and Removing files - Github</title>
+        <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel="stylesheet"><link href='http://fonts.googleapis.com/css?family=Cormorant+Infant' rel="stylesheet"><link rel="stylesheet"
+              type="text/css"
+              href="../testcss.css">
+    </head>
+    
+<body>
+    
+ <!-- Header -->
+<?php include('..//Includes//header.php'); ?>
+
+<!-- Navigation -->
+<?php include('..//Includes//nav.php'); ?>
+    
+<!-- Navigation2 -->
+<?php include('..//Includes//nav2.php'); ?>
+    
+<!-- Left --><div class = "mainWrapper">
+<?php include('..//Includes//Left_Github.php'); ?>
+
+<!-- Right -->
+    
+    <div id ="rightz">
+        
+        <h1>Working with Git Files and Folders</h1>
+        
+            <p>In this section we are going to talk about how to add and remove files or folders from your github repository.</p>
+        
+        <h2>Adding and Removing files</h2>
+        
+        <p>Once you create a repository, you will want to add and remove files and even folders. The first thing you want to do is figure out which directory you want to use in order to add or remove folders.
+            
+        <span class = "nl">This can be done by navigating to that directory in the terminal using the cd (change directory) command. Simply type in 'cd &lt;path name>', so cd followed by the directory you want to change into.  You can jump back to a previous directory by typing in 'cd ..'.</span></p>
+        
+    <em>Code:</em>
+    <!-- code -->
+    <pre class = "code">
+    <span class = "comments">// Navigate to the directory</span>
+    cd Desktop/GitHub_Files</pre>
+            
+        <p><span class = "nl">Once you are in the folder which contains the files you want to add to your git repository, you want to add those files or directories.  However, before we can do that we need to ensure that github is configured to recognize all the files and folders.</span>
+            
+        <span class = "nl">We can do this using the 'git init', if the folder is already has a configation folder (.git), then you will just reinitialize the configuation file.</span></p>
+        
+    <em>Code:</em>
+    <!-- code -->
+    <pre class = "code">
+    <span class = "comments">// Create git init file in directory</span>
+    git init</pre>
+        
+        <p>Now we can type in 'git add .' to add all the folders and files in the currently directory. Or we can just type in 'git add &lt;file name>' or 'git add &lt;folder name>'.
+        
+        <span class = "nl">This command just let's git add the file or directory to the queue, we still have to commit and push the file or directory on to our master branch afterwards.</span>
+        
+        <span class = "nl">If you wanted to check the status of all the files and folders being tracked or pending in the queue we could type in 'git status'.</span></p>
+        
+    <em>Code:</em>
+    <!-- code -->
+    <pre class="code">
+    <span class ="comments">// add hello.cpp file to repository</span>
+    git add hello.cpp
+    
+    <span class = "comments">// check the status of our git tracking</span>
+    git status</pre>
+        
+        <p>If for example we want to add a different file or remove the file from the queue, then we can simply reset github by typing in 'git reset &lt;path>' or just 'git reset' if you are in the current directory. Type in git status again to see if the file was removed from the queue.
+        
+        <span class = "nl">However, if you are satisfied with the files added to the queue and you would like to commit them to the master branch.  The next step would be to use the 'git commit' command.</span>
+        
+        <span class = "nl">In order to make the commit command understandable to others on the team or to yourself. You can add a message like so 'git command -m "add this cpp file"'. Once again you can reset if you don't want to commit the file.</span>
+        
+        <span class = "nl">The two forms of resetting are soft reset and a hard reset. A soft reset will save changes you made prior to trying to commit, while a hard reset will discard any changes made.</span></p>
+        
+    <em>Code:</em>
+    <!-- code -->
+    <pre class="code">
+    <span class = "comments">// commit files or folders to repository</span>
+    git commit -m "message contained in quotes"
+    
+    <span class = "comments">// reset the queue to remove possible files from being added or commited</span>
+    git reset
+    
+    <span class = "comments">// soft reset saves changes made</span>
+    git reset HEAD^ --soft
+    
+    <span class = "comments">// hard reset discards changes made</span>
+    git reset HEAD^ --hard</pre>
+        
+        <p>If you content with all the files or folders you want to add to the repository, you have commited them, the final step is to push them on to the repository.
+        
+        <span class = "nl">Be sure to reset if there are some files you don't want to add, because you will need to remove them after they have been commited to github servers.</span>
+        
+        <span class = "nl">Sometimes files that you have locally won't be in sync with the files on the repository, and you will have errors with trying to commit new files or folders. For this, use 'git pull' in order to sort our any discrepancies</span></p>
+        
+    <em>Code:</em>
+    <!-- code -->
+    <pre class="code">
+    <span class = "comments">// Ensure that files local files are synced with remote repository</span>
+    git pull
+    
+    <span class = "comments">// Push all of our commited files to our repository</span>
+    git push</pre>
+        
+        <p>Let's look at adding a simply file, with all the commands together.</p>
+
+    <em>Code:</em>
+    <!-- code -->
+    <pre class="code">
+    <span class = "comments">// add a file</span>
+    git add hello.cpp
+    
+    <span class = "comments">// commit the file</span>
+    git commit -m "adding a file"
+    
+    <span class = "comments">// push committed file to repo</span>
+    git push</pre>
+        
+        <p>The process is the same for removing this same file from our respository. Only we are using the rm command instead of the add command. Also if you are removing a folder then add the '-r' attribute to the command to recursively delete all the files within the folder.</p>
+        
+    <em>Code:</em>
+    <!-- code -->
+    <pre class="code">
+    <span class = "comments">// add a file</span>
+    git rm hello.cpp
+    
+    <span class = "comments">// commit the file</span>
+    git commit -m "removing a file"
+    
+    <span class = "comments">// push commit to remove the file</span>
+    git push</pre>
+        
+        <hr />
+        <br />
+        
+    <a href ="Github.html">Previous Page</a>
+        
+        <br /><br />
+
+    </div>    
+    
+</div><!-- Footer -->
+<?php include('..//Includes//footer.php'); ?>
+
+</body>
+</html>  
