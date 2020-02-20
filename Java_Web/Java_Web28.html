@@ -169,8 +169,24 @@ public class UserRepositoryUserDetailsService implements UserDetailsService {
     }
 }</pre>
 
-<p>By injecting the userRepo into the constructor and invoking the function findByUsername from the repo, we can use this service to see if a user exists or not. In the next section we will focus on using some of the controllers to register and login or logout users.</p>
+<p>By injecting the userRepo into the constructor and invoking the function findByUsername from the repo, we can use this service to see if a user exists or not. In order to actually encode our password in the database we need to see a snipet of code from our securityConfig.java file. </p>
 
+<em>SecurityConfig.java</em>
+<pre class = "code">@Bean
+public PasswordEncoder encoder() {
+    return new StandardPasswordEncoder("53cr3t");
+}
+
+@Override
+protected void configure(AuthenticationManagerBuilder auth)
+    throws Exception {
+
+    auth
+	.userDetailsService(userDetailsService)
+	   .passwordEncoder(encoder());
+}</pre>
+
+<p>This method ensures that when we call future classes which utilize the service bean like in our UserRepositoryUserDetailsService class, that it knows where to look. Meaning had we not configured this service first, the future registration and registrationController classes would be at a loss for knowing what form type of encoder to use and whether or not a certain user handle was active or had the correct priviledges for accessing certain pages.</p>
   
     <hr />
 <br />

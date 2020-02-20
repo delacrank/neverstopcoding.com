@@ -28,7 +28,8 @@
 	<li><a href="../Java_Web/Java_Web26.html">Spring Data</a></li>
 	<li><a href="../Java_Web/Java_Web27.html">Spring Data Controllers</a></li>
 	<li><a href="../Java_Web/Java_Web28.html">Spring Security</a></li>
-	<li><a href="../Java_Web/Java_Web29.html">Spring Security cont.</a></li>
+	<li><a href="../Java_Web/Java_Web29.html">Spring Security part 2</a></li>
+	<li><a href="../Java_Web/Java_Web30.html">Spring Security part 3</a></li>
 </ul>
 </li>
 </ul>
