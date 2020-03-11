@@ -88,9 +88,45 @@ let name = new Name("june", "bug");
 let weather = new Weather("rain");
 
 console.log(name.nameMessage);
-console.log(weather.weatherMessage);</pre>
+  console.log(weather.weatherMessage);</pre>
 
+<hr />
 
+<h2>Type Annotations</h2>
+
+  <p>Before we move on to the next section we should probabbly spend some time understanding type annotations. First you should understand that typescript using type annotations for the purposes of defining variable types. We could for example create a class which uses some of these annotations and see what happens when we try to pass a variable which doesn't concide with that type.</p>
+
+  <em>NameAndWeather.ts</em>
+  <pre class = "code">export class Name {
+    first: string;
+    second: string;
+
+    constructor(first: string, second: string) {
+        this.first = first;
+        this.second = second;
+    }
+
+    get nameMessage() : string {
+        return `Hello ${this.first} ${this.second}`;
+    }
+}
+    
+export class WeatherLocation {
+    weather: string;
+    city: string;
+    constructor(weather: string, city: string) {
+        this.weather = weather;
+        this.city = city;
+    }
+    
+    get weatherMessage() : string {
+        return `It is ${this.weather} in ${this.city}`;
+    }
+}</pre>
+
+  <p>Notice, how with the functions defined in my classes use annotations to determine what type is being returned. This is also true for the parameters the constructor should accept and the types assigned to the fields. We can go one step further and define access modifiers to each of the fields passed into the constructor (private, for example).
+
+    <span class = "nl">In the next section we will be showing an example of an actual application.</span></p>
 
 	
 
