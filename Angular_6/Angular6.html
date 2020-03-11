@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;
+	charset=utf-8" />
+<title>SportsStore</title>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel="stylesheet"><link href='http://fonts.googleapis.com/css?family=Cormorant+Infant' rel="stylesheet"><link rel="stylesheet"
+      type="text/css"
+      href="../testcss.css"> 
+</head>
+<body>
+    
+ <!-- Header -->
+<?php include('..//Includes//header.php'); ?>
+
+<!-- Navigation2 -->
+<?php include('..//Includes//nav.php'); ?>
+    
+<!-- Navigation2 -->
+<?php include('..//Includes//nav2.php'); ?>
+
+<!-- Left --><div class = "mainWrapper">
+<?php include('..//Includes//Left_Angular_6.php'); ?>
+    
+<!-- Right --> 
+<div id ="rightz">
+
+  <h1>SportsStore</h1>
+
+  <h2>Intro to api</h2>
+
+  <p>In this section we are going to be creating a restful application. To start let's create a new angular project called SportsStore. In this app we are going to need to install boostrap, font-awesome, json-server and jsonwebtoken.</p>
+
+  <em>commands</em>
+  <pre class = "code">mkdir SportsStore
+cd SportsStore
+ng new SportsStore
+npm i --save bootstrap
+npm i --save font-awesome
+npm i --save-dev json-server
+npm i --save-dev jsonwebtoken</pre>
+
+  <p>Using the '--save-dev' argument indicates that these packages are used during development and won't be part of the application. Next we need to add the style sheets for our bootstrap and font-awesome minified version to our styles. So go into our angular.json file and add them.</p>
+
+   <em>commands</em>
+  <pre class = "code">"styles": [
+"src/styles.css",
+"node_modules/bootstrap/dist/css/bootstrap.min.css",
+"node_modules/font-awesome/css/font-awesome.min.css"
+],</pre>
+
+  <hr />
+
+  <h2>Restful Web Service</h2>
+
+  <p>Next we need to add a script to our package.json file. This is necessary for our restful web service. Let's first create this script along with the data.js file which will contain some of the data we want to load into our application.</p>
+  
+<hr />
+<a href="Angular5.html">Previous Page</a>
+<span class="next"><a href="Angular7.html"> Next page</a></span>
+<br /><br />
+</div>
+
+</div><!-- Footer -->
+<?php include('..//Includes//footer.php'); ?>
+    
+</body>
+</html>
