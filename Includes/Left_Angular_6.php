@@ -8,5 +8,7 @@
 <li><a href="../Angular_6/Angular4.html">Methods</a></li>
 <li><a href="../Angular_6/Angular5.html">Component &amp; Template</a></li>
 <li><a href="../Angular_6/Angular6.html">Sports App</a></li>
+<li><a href="../Angular_6/Angular7.html">Components</a></li>
+<li><a href="../Angular_6/Angular8.html">Models</a></li>
     </ul></li></ul>
 </div>

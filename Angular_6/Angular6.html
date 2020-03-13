@@ -140,10 +140,23 @@ module.exports = function (req, res, next) {
 
 <span class = "nl">In the situation where any of the pages with the proper method is requested then the next step is to check the value of the token. We can use the 'verify' method of the jwt object to determine. </span>
 
-  
-	  
+<span class = "nl">One final thing to note is that in order to get this scripts to run properly we need to be able to add them to the 'package.json' file.</p>
 
+<em>package.json</em>
+<pre class = "code">scripts: {
+...
+ "json": "json-server data.js -p 3500 -m authMiddleware.js"
+}</pre>
 
+<p>The final step in this process is to be able to actually call the api. To do this we need to first deploy the application to our localhost. Then navigate to the page we want to request data from. The final step would be to go to the actual directory from the command prompt and run 'npm run json'.</p>
+
+<em>commands</em>
+<pre class = "code">ng serve --port 3000 --open
+cd sportsstore
+npm run json
+<span class = "comments">// navigate to https://localhost:3500/products/1</span></pre>
+
+<p>In the browser you should be able to see the values for the product you pulled up, the command prompt should be able to display the method.</p>
   
 <hr />
 <a href="Angular5.html">Previous Page</a>
