@@ -10,5 +10,6 @@
 <li><a href="../Angular_6/Angular6.html">Sports App</a></li>
 <li><a href="../Angular_6/Angular7.html">Components</a></li>
 <li><a href="../Angular_6/Angular8.html">Models</a></li>
+<li><a href="../Angular_6/Angular9.html">Store Components</a></li>
     </ul></li></ul>
 </div>
