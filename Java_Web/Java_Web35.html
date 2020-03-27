@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;
+	charset=utf-8" />
+<title>Updating api</title>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel="stylesheet"><link href='http://fonts.googleapis.com/css?family=Cormorant+Infant' rel="stylesheet"><link rel="stylesheet"
+      type="text/css"
+      href="../testcss.css">
+</head>
+<body>
+    
+ <!-- Header -->
+<?php include('..//Includes//header.php'); ?>
+
+<!-- Navigation -->
+<?php include('..//Includes//nav.php'); ?>
+    
+<!-- Navigation2 -->
+<?php include('..//Includes//nav2.php'); ?>
+    
+<!-- Left --><div class = "mainWrapper">
+<?php include('..//Includes//Left_Java_Web.php'); ?>
+    
+<!-- Right -->
+<div id ="rightz">
+
+<h2>Creating Resources</h2>
+
+<h1>HATEOAS Resource Class</h1>
+
+<em>TacoResource.java</em>
+<pre class = "code">package tacos.web.api;
+import java.util.Date;
+import java.util.List;
+
+import org.springframework.hateoas.ResourceSupport;
+import org.springframework.hateoas.core.Relation;
+
+import lombok.Getter;
+import tacos.Taco;
+
+@Relation(value="taco", collectionRelation="tacos")
+public class TacoResource extends ResourceSupport {
+
+  private static final IngredientResourceAssembler 
+            ingredientAssembler = new IngredientResourceAssembler();
+  
+  @Getter
+  private final String name;
+
+  @Getter
+  private final Date createdAt;
+
+  @Getter
+  private final List<IngredientResource> ingredients;
+  
+  public TacoResource(Taco taco) {
+    this.name = taco.getName();
+    this.createdAt = taco.getCreatedAt();
+    this.ingredients = 
+        ingredientAssembler.toResources(taco.getIngredients());
+  }
+  
+}</pre>
+
+
+<em>TacoResourceAssembler</em>
+<pre class = "code">package tacos.web.api;
+
+import org.springframework.hateoas.mvc.ResourceAssemblerSupport;
+
+import tacos.Taco;
+
+public class TacoResourceAssembler
+       extends ResourceAssemblerSupport<Taco, TacoResource> {
+
+  public TacoResourceAssembler() {
+    super(DesignTacoController.class, TacoResource.class);
+  }
+  
+  @Override
+  protected TacoResource instantiateResource(Taco taco) {
+    return new TacoResource(taco);
+  }
+
+  @Override
+  public TacoResource toResource(Taco taco) {
+    return createResourceWithId(taco.getId(), taco);
+  }
+
+}</pre>
+
+
+<h2>Code for implementing HATEOAS</h2>
+
+<p>In terms of being able to generate and eventually read this new api we are going to require some code which can generate and understand it. I will include the necessary imports to be able to do this as well as the code to generate and read these resources. More on HATEOAS can be found in the spring docs <a href="https://spring.io/projects/spring-hateoas" target="_blank">here</a>.</p>
+
+<em>code</em>
+<pre class = "code">import static org.springframework.hateoas.mvc.ControllerLinkBuilder.*;
+import java.util.List;
+
+import org.springframework.hateoas.EntityLinks;
+import org.springframework.hateoas.Link;
+import org.springframework.hateoas.Resources;
+
+@RestController
+@RequestMapping(path="/design",                      
+                produces="application/hal+json")
+@CrossOrigin(origins="*")       
+public class DesignTacoController {
+  private TacoRepository tacoRepo;
+  
+  @Autowired
+  EntityLinks entityLinks;
+
+  public DesignTacoController(TacoRepository tacoRepo) {
+    this.tacoRepo = tacoRepo;
+  }
+
+  @GetMapping("/recent")
+  public  Resources<TacoResource> recentTacos() {                 //<3>
+    PageRequest page = PageRequest.of(
+            0, 12, Sort.by("createdAt").descending());
+
+    List<Taco> tacos = tacoRepo.findAll(page).getContent();
+
+    List<TacoResource> tacoResources = 
+        new TacoResourceAssembler().toResources(tacos);
+    Resources<TacoResource> recentResources = 
+	new Resources<TacoResource>(tacoResources);
+    
+    recentResources.add(
+	new Link("http://localhost:8080/design/recent", "recents"));
+    return recentResources;
+  }</pre>
+
+<p>Let's understand this code, first we create a list to store the values from our database. Using the TacoResourceAssembler we can store this data in the form of hateoas. Finally, we can take this hateoas and store it in .To test the new implementation of our hateoas we can use the curl command.</p>
+
+<em>command</em>
+<pre class="code">curl localhost:8080/design/recent</pre>
+
+  <hr />
+<br />
+<a href="Java_Web34.html">Previous Page</a>
+<span class = "next"><a href = "Java_Web36.html">Next Page</a></span>
+<br /><br />
+</div>
+</div><!-- Footer -->
+<?php include('..//Includes//footer.php'); ?>
+</body>
+</html>

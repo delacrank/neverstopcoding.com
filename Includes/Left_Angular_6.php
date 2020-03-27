@@ -11,5 +11,14 @@
 <li><a href="../Angular_6/Angular7.html">Components</a></li>
 <li><a href="../Angular_6/Angular8.html">Models</a></li>
 <li><a href="../Angular_6/Angular9.html">Store Components</a></li>
+<li><a href="../Angular_6/Angular10.html">Filtering</a></li>
+<li><a href="../Angular_6/Angular11.html">Pagination</a></li>
+<li><a href="../Angular_6/Angular12.html">Directives</a></li>
+<li><a href="../Angular_6/Angular13.html">Cart</a></li>
+<li><a href="../Angular_6/Angular14.html">Routing</a></li>
+<li><a href="../Angular_6/Angular15.html">Navigation &amp; Guards</a></li>
+<li><a href="../Angular_6/Angular16.html">Cart Detail</a></li>
+<li><a href="../Angular_6/Angular17.html">Checkout</a></li>
+<li><a href="../Angular_6/Angular18.html">Checkout cont.</a></li>
     </ul></li></ul>
 </div>

@@ -30,6 +30,9 @@
 	<li><a href="../Java_Web/Java_Web28.html">Spring Security</a></li>
 	<li><a href="../Java_Web/Java_Web29.html">Spring Security part 2</a></li>
 	<li><a href="../Java_Web/Java_Web30.html">Spring Security part 3</a></li>
+	<li><a href="../Java_Web/Java_Web31.html">Single Page Application</a></li>
+	<li><a href="../Java_Web/Java_Web32.html">Web Api</a></li>
+	<li><a href="../Java_Web/Java_Web32.html">Web Api Cont.</a></li>
 </ul>
 </li>
 </ul>
