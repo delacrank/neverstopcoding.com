@@ -138,7 +138,16 @@
                             DemoApplicationTests.java</pre>
 
 
-<p>My structure turned out this way because my groupId was 'com.juan' and my artifactId was 'demo' so those directories correspond to my groupId and artifactId.</p>
+<p>My structure turned out this way because my groupId was 'com.juan' and my artifactId was 'demo' so those directories correspond to my groupId and artifactId.
+
+<span class = "nl">However, if you prefer to use the command line, you can easily set up a spring project using the curl command (client url). Below, I'll provide an example of how to do so.</span></p>
+
+<em>spring initialzr cmd</em>
+<pre class = "code">curl https://start.spring.io/starter.zip -o my-project.zip
+<span class = "comments"># unzip the file 
+jar xf my-project.zip</pre>
+
+<p>You can add dependencies or specifiy other parameters in terms of the pom.xml file generated using the '-d [dependencies]' or '-d [bootVersion]'. To read up more on using the spring.io commands just type 'curl https://start.spring.io'.</p>
 
 <hr />
 

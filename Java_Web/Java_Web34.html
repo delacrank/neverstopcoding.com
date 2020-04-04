@@ -115,7 +115,35 @@
   &lt;artifactId>spring-boot-starter-hateoas&lt;/artifactId>
 &lt;/dependency></pre>
 
-<p>In our next section we will try to begin to describe how to generate these HATEOAS links using a variety of classes.</p>
+<p>Before we move on let's take a quick look at the method we are calling to handle the appending of links to our json resouce.</p>
+
+<hr />
+
+<h2>recentTacos method</h2>
+
+<p>If we take a look at the recent Tacos method, you will notice that it is a method which takes our original list of tacos and inserts them into a series of other method calls. The purpose of this is to embed links into our json resource. One of the reasons we would want to embed a link into a resource is so that clients can still make http requests on certain tacos without having to depend on hitting the server side code. 
+
+<span class = "nl">This will significantly speed up our application, in the next section we will take a look at how we can create this links and make them so that we don't have to hardcore their location into our method.</span></p>
+
+<em>DesignTacoController</em>
+<pre class = "code"> @GetMapping("/recent")
+  public  Resources<TacoResource> recentTacos() {                 
+    PageRequest page = PageRequest.of(
+            0, 12, Sort.by("createdAt").descending());
+
+    List<Taco> tacos = tacoRepo.findAll(page).getContent();
+
+    List<TacoResource> tacoResources = 
+        new TacoResourceAssembler().toResources(tacos);
+    Resources<TacoResource> recentResources = 
+	new Resources<TacoResource>(tacoResources);
+    
+    recentResources.add(
+	new Link("http://localhost:8080/design/recent", "recents"));
+    return recentResources;
+  }</pre>
+
+<p>
 
   <hr />
 <br />

@@ -31,7 +31,7 @@
 
 <p>So far we have seen some aspects of using the get and post methods to ping pong data between our two urls localhost:8080 and localhost:4200. The next step is going to be understand http put and patch methods for updating the fields in our database.  First we need to describe what these methods do.
 
-  <span class = "nl">First the put method is the opposite of get, in that it sends data from the client to the server. If we wanted to change the address of an order we can pass the order id as a parameter for our put route, in our method and pass the updated order object to be sent into our repo.</span><p>
+  <span class = "nl">First the put method is the opposite of get, in that it sends data from the client to the server. If we wanted to change the address of an order we can pass the order id as a parameter for our put route, in our method and pass the updated order object to be sent into our repo.</span></p>
 
 <em>put method</em>
 <pre class = "code">@PutMapping("/{orderId}")
