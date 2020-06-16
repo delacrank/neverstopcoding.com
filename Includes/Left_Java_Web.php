@@ -36,7 +36,7 @@
 	<li><a href="../Java_Web/Java_Web34.html">Enabling Hypermedia</a></li>
 	<li><a href="../Java_Web/Java_Web35.html">HATEOAS code</a></li>
 	<li><a href="../Java_Web/Java_Web36.html">Curl Commands</a></li>
-	<li><a href="../Java_Web/Java_Web37.html">ok</a></li>
+	<li><a href="../Java_Web/Java_Web37.html">Multi Module</a></li>
 </ul>
 </li>
 </ul>
