@@ -27,6 +27,7 @@
         <li><a href="../Cpp_Std_Lib/Cpp_Std_Lib.html">C++_Std_Lib</a></li>
         <li><a href = "../Assembly/Assembly.html">Assembly</a></li>
         <li><a href="../Java/Java.html">Java</a></li>
+        <li><a href="../Java_GUI/Java_GUI.html">Java_GUI</a></li>
         <li><a href="../Algorithms/Algorithms.html">Algorithms</a></li>
     </ul>
 </li>
