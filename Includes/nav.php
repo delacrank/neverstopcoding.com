@@ -10,6 +10,7 @@
         <li><a href="../Jscript/Jscript.html">Js EMCA 6</a></li>
         <li><a href="../JQuery/JQuery.html">JQuery</a></li>
         <li><a href="../Angular_6/Angular.html">Angular_6</a>
+        <li><a href="../Typescript/Typescript.html">Typescript</a>
         <li><a href="../Ajax/Ajax.html">Ajax</a></li>
         <li><a href="../PhP/PhP.html">PhP</a></li>
         <li><a href="../CodeIgniter/ci.html">Code Igniter</a></li>
@@ -25,7 +26,7 @@
         <li><a href= "../C++/C++.html">C++03</a></li>
         <li><a href="../Cpp/Cpp.html">C++11</a></li>
         <li><a href="../Cpp_Std_Lib/Cpp_Std_Lib.html">C++_Std_Lib</a></li>
-        <li><a href = "../Assembly/Assembly.html">Assembly</a></li>
+        <li><a href="../Assembly/Assembly.html">Assembly</a></li>
         <li><a href="../Java/Java.html">Java</a></li>
         <li><a href="../Java_GUI/Java_GUI.html">Java_GUI</a></li>
         <li><a href="../Algorithms/Algorithms.html">Algorithms</a></li>

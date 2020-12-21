@@ -37,6 +37,8 @@
 	<li><a href="../Java_Web/Java_Web35.html">HATEOAS code</a></li>
 	<li><a href="../Java_Web/Java_Web36.html">Curl Commands</a></li>
 	<li><a href="../Java_Web/Java_Web37.html">Multi Module</a></li>
+	<li><a href="../Java_Web/Java_Web38.html">Spring Security part 4</a></li>
+	<li><a href="../Java_Web/Java_Web39.html">Spring Security part 5</a></li>
 </ul>
 </li>
 </ul>

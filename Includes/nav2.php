@@ -24,6 +24,7 @@
         <li><a href="../Allegro/Allegro.html">Allegro &nbsp;&nbsp;4.2</a></li>
         <li><a href="../OpenGL/OpenGL.html">OpenGL</a></li>
         <li><a href="../DirectX/DirectX.html">DirectX &nbsp;&nbsp;9</a></li>
+        <li><a href="../Cpp_Graphics/Cpp_Graphics.html">Graphics</a></li>
     </ul>
 </li>
 <li><a href="../forum/Index.php">Forums</a></li>

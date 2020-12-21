@@ -32,115 +32,71 @@
         
         <h1>Working with Git Files and Folders</h1>
         
-            <p>In this section we are going to talk about how to add and remove files or folders from your github repository.</p>
+            <p>The best way to really get familiar with github is to try testing some of the features. Let's try doing this by creating a directory initializing it and then trying adding and removing file from the staging area.</p>
         
         <h2>Adding and Removing files</h2>
         
-        <p>Once you create a repository, you will want to add and remove files and even folders. The first thing you want to do is figure out which directory you want to use in order to add or remove folders.
-            
-        <span class = "nl">This can be done by navigating to that directory in the terminal using the cd (change directory) command. Simply type in 'cd &lt;path name>', so cd followed by the directory you want to change into.  You can jump back to a previous directory by typing in 'cd ..'.</span></p>
+        <p>Once you create a repository, you will want to add and remove files and even folders.
+
+	  <span class = "nl">One of the first things we want to be able to understand is how to remove or add files from our staging area. One of first things to understand about using github is that files being tracked are different from files being added or remove from our staging area.</span>
+
+	  <span class = "nl">An example of this would be if I decided to remove a file that I added to my staging area which was still on my local harddisk. I can simulate this by using 'git add test.txt' and then typing 'git rm test.txt'. What do you think will happen in this situation.</span>
+
+	  <span class ="nl">An error will be thrown in this situation since the file still remains on the local harddisk, it will complain that only by using the cached argument '--cached' can we remove the file.</span>
+
+	<span class = "nl">However, what do you think will happen if we first delete the file from our harddisk and then run the 'git rm test.txt' command. Well, there shouldn't be a problem since the staging area and the tracked files are in alignment. If we had actually decided to commit the staging area then there would be a conflict next time we tried to merge our repo with our localhard disk.</span></p>
         
     <em>Code:</em>
     <!-- code -->
     <pre class = "code">
-    <span class = "comments">// Navigate to the directory</span>
-    cd Desktop/GitHub_Files</pre>
-            
-        <p><span class = "nl">Once you are in the folder which contains the files you want to add to your git repository, you want to add those files or directories.  However, before we can do that we need to ensure that github is configured to recognize all the files and folders.</span>
-            
-        <span class = "nl">We can do this using the 'git init', if the folder is already has a configation folder (.git), then you will just reinitialize the configuation file.</span></p>
-        
-    <em>Code:</em>
-    <!-- code -->
-    <pre class = "code">
-    <span class = "comments">// Create git init file in directory</span>
-    git init</pre>
-        
-        <p>Now we can type in 'git add .' to add all the folders and files in the currently directory. Or we can just type in 'git add &lt;file name>' or 'git add &lt;folder name>'.
-        
-        <span class = "nl">This command just let's git add the file or directory to the queue, we still have to commit and push the file or directory on to our master branch afterwards.</span>
-        
-        <span class = "nl">If you wanted to check the status of all the files and folders being tracked or pending in the queue we could type in 'git status'.</span></p>
-        
-    <em>Code:</em>
-    <!-- code -->
-    <pre class="code">
-    <span class ="comments">// add hello.cpp file to repository</span>
-    git add hello.cpp
-    
-    <span class = "comments">// check the status of our git tracking</span>
-    git status</pre>
-        
-        <p>If for example we want to add a different file or remove the file from the queue, then we can simply reset github by typing in 'git reset &lt;path>' or just 'git reset' if you are in the current directory. Type in git status again to see if the file was removed from the queue.
-        
-        <span class = "nl">However, if you are satisfied with the files added to the queue and you would like to commit them to the master branch.  The next step would be to use the 'git commit' command.</span>
-        
-        <span class = "nl">In order to make the commit command understandable to others on the team or to yourself. You can add a message like so 'git command -m "add this cpp file"'. Once again you can reset if you don't want to commit the file.</span>
-        
-        <span class = "nl">The two forms of resetting are soft reset and a hard reset. A soft reset will save changes you made prior to trying to commit, while a hard reset will discard any changes made.</span></p>
-        
-    <em>Code:</em>
-    <!-- code -->
-    <pre class="code">
-    <span class = "comments">// commit files or folders to repository</span>
-    git commit -m "message contained in quotes"
-    
-    <span class = "comments">// reset the queue to remove possible files from being added or commited</span>
-    git reset
-    
-    <span class = "comments">// soft reset saves changes made</span>
-    git reset HEAD^ --soft
-    
-    <span class = "comments">// hard reset discards changes made</span>
-    git reset HEAD^ --hard</pre>
-        
-        <p>If you content with all the files or folders you want to add to the repository, you have commited them, the final step is to push them on to the repository.
-        
-        <span class = "nl">Be sure to reset if there are some files you don't want to add, because you will need to remove them after they have been commited to github servers.</span>
-        
-        <span class = "nl">Sometimes files that you have locally won't be in sync with the files on the repository, and you will have errors with trying to commit new files or folders. For this, use 'git pull' in order to sort our any discrepancies</span></p>
-        
-    <em>Code:</em>
-    <!-- code -->
-    <pre class="code">
-    <span class = "comments">// Ensure that files local files are synced with remote repository</span>
-    git pull
-    
-    <span class = "comments">// Push all of our commited files to our repository</span>
-    git push</pre>
-        
-        <p>Let's look at adding a simply file, with all the commands together.</p>
+    <span class = "comments"># removing files from the staging area</span>
+    git add &lt;filename>
+    git status
+    git rm --cached &ltfilename></pre>
+
+    <p>Another way to remove a file from the staging area is to use 'git reset HEAD test.txt'. This will take a file out of the staging area and place it back in the tracking area (or local harddisk).
+
+    <h2>Commit files</h2>
+
+	<p>Next we are going to talk about commit files to our repo. The way we can do this is by using the git commit command. Generally, it requires that you type in a message so that you know why changes were made to the repository.
+
+    <span class = "nl">In order to commit a file to the repository we need to first make sure that its in the staging area first, 'git add test.txt'. One thing to note is that when we make a commit, then all the files that are either modified, added or deleting in the staging area will impact the files on our reporitory. Let's commit 'git commit -m "added test file".</span></p>
 
     <em>Code:</em>
-    <!-- code -->
-    <pre class="code">
-    <span class = "comments">// add a file</span>
-    git add hello.cpp
-    
-    <span class = "comments">// commit the file</span>
-    git commit -m "adding a file"
-    
-    <span class = "comments">// push committed file to repo</span>
-    git push</pre>
-        
-        <p>The process is the same for removing this same file from our respository. Only we are using the rm command instead of the add command. Also if you are removing a folder then add the '-r' attribute to the command to recursively delete all the files within the folder.</p>
-        
+    <pre class = "code">
+    <span class = "comments"># git commit</span>
+    git add test.txt
+    git commit -m "added a test file"</pre>
+
+    <p>Once we have commited the files we can see a log of all the commits we made. This is done by using the log command 'git log'. Each commit has a reference number in order to keep track of what was commited, who commited it and what changes were made. Typing in git log --stat will provide more information on the insertions or deletions from each file.
+
+    <span class = "nl">However, what if you wanted to remove a commit you just made. You would need to reset the commit by typing in 'git reset &lt;commit ref>'</span>.</p>
+
     <em>Code:</em>
-    <!-- code -->
-    <pre class="code">
-    <span class = "comments">// add a file</span>
-    git rm hello.cpp
-    
-    <span class = "comments">// commit the file</span>
-    git commit -m "removing a file"
-    
-    <span class = "comments">// push commit to remove the file</span>
-    git push</pre>
-        
-        <hr />
-        <br />
+    <pre class = "code">
+    <span class = "comments"># git commit</span>
+    echo "ok" > test3.txt
+    <span class = "comments"># -a skips the staging process</span>
+    git commit -a -m "added a test file"
+    git log
+    git reset &lt;commit-ref></pre>
+
+  <hr />
+
+  <h2>Unmodifying files</h2>
+
+	<p>In this last section I will quickly go over how to umodify changes to a file pulled from a repository. Say for example you just clone a repo make changes to a file and then realize that you want to undo those changes. This can be done with 'git checkout -- &lt;filename>'.</p>
+
+    <em>Code:</em>
+    <pre class = "code">    <span class = "comments"># staging area to localdisk</span>
+    git checkout -- test3.txt</pre>
+      
+	
+    <hr />
+    <br />
         
     <a href ="Github.html">Previous Page</a>
+    <span class = "next"><a href="Github2.html">Next Page</a>	
         
         <br /><br />
 

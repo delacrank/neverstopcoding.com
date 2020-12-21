@@ -40,7 +40,8 @@
 <li><a href="../Allegro/Allegro.html">Allegro 4.2</a></li>
 <li><a href="../DirectX/DirectX.html">DirectX 9</a></li>
 </ul>
-    
-<p class = "footer">&copy; 2015 - 2017 Neverstopcoding.com</p>
+
+<?php $dt = new DateTime("now", new DateTimeZone('America/New_York')); ?>
+<p class = "footer">&copy; 2015 - <?= $dt->format('Y') ?> Neverstopcoding.com</p>
 </div>
 

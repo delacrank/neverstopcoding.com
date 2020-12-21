@@ -37,22 +37,19 @@
         
         <span class = "nl">Of course you can always follow along with my tutorial if you prefer. There is another site which contains much of the documentation and even a free PDF version of ProGit (published by Apress) <a target="_blank" href ="https://git-scm.com">Here</a>.</span></p>
         
-    <hr />    
+    <hr />           
+	
+    <h2>Phases of Git</h2>
+
+    <p>Github is a distributed version control system. This means that a version of the codebase will exist not only on their main repository which is github servers but also on your own files as well as the files of those involved in the project. This is good since if a file every becomes corrupted or a harddisk destroyed the backups are numerous.
+
+    <span class = "nl">There are three phases to uploading content to your github repository. The first area is your local database, which is where the files are stored on your machine. In order to track your local files use the git init command. Git will notice when files are modified, added or removed based on this tracking system. You can move files in and out of the next area which is called the staging area. In order to do this you would need to type 'git add &lt;filename>'. </span>
+
+    <span class = "nl">The final phase is the repository itself and files can only get on to the repository after they have been commited. Commiting a file means you have finalized any changes you wanted from the staging area. Lastly, if you want move files from your staging area to the github repo you need to push them 'git push'. They will be pushed on or pulled from using something called a stream, let's see how we can proceed to do this with our readme file.</span>	
         
-    <!-- Creating a repository -->
-    <h2>Creating a Repository</h2>
+  <span class = "nl">After we add the file next we type in 'git commit -m "first commit"', but in order to add this commit to our online repository we must remotely connect. This can be accomplished using 'git remote add origin https://github.com/username/repository.git'. Where username and repository are the name of the your own account and the name of the repository you want to push this file to.  </span>
         
-        <p>The first thing you need to do in order to create a repository in github is first go to the website www.github.com, log into your account and click the '+' plus sign near your avatar in the upper right corner. From here select new repository and choose a name.
-            
-            <span class = "nl">Github will then provide you with a list of commands to use in order to create their repoistory via the command line, this will be an explanation of those commands.</span>
-                
-        <span class ="nl">To create a repository it should have at least a file in it, usually most repositories contain a readme text file. We can create that readme file and name it using a command 'echo "file_name" >> Readme.md'. Using the insertion operator '>>' means insert this text into this file, if the file isn't already created then the commandline will create it for you.</span>
-        
-        <span class = "nl">If the file does exist than the command will just append your text into a newline on the file. Next, we need to initialize github, this can be done using the 'git init' command. Then we can add the readme file using the 'git add' command, remember to add the filename as an argument so 'git add Readme.md'.</span>
-        
-        <span class = "nl">Great now that we have added this file, we want to commit it.  We can do this by typing in 'git commit -m "first commit"', but in order to add this commit to our online repository we must remotely connect. This can be accomplished using 'git remote add origin https://github.com/username/repository.git'. Where username and repository are the name of the your own account and the name of the repository you want to push this file to.  </span>
-        
-        <span class = "nl">We can finally push this branch to our master, using the 'git push' command, or for completion 'git push -u origin master'. Let's look at these commands below.</span></p>
+        <span class = "nl">We can finally push this branch to our master, using the 'git push' command, or for completion 'git push'. Let's look at these commands below.</span></p>
         
     <em>Code:</em>
     <!-- code -->
@@ -66,13 +63,12 @@
     <span class = "comments"># Commit it to the repository locally</span>
     git commit -m "first commit"
     <span class = "comments"># Connect to the online repository</span>
-    git remote add origin https://github.com/username/reponame.git
+    git remote add origin https:#github.com/username/reponame.git
     <span class = "comments"># Push the file on to that repository</span>
-    git push -u origin master    </pre>
+    git push</pre>
         
         <p>If you want to know where github is installed on your machine. Simply go to '/Users/Username/.git', where username is your account of course.
-        
-        
+                
         <span class = "nl">From here on we can create new repositories, push new files on to our existing repository, clone our repository to our desktop or connect to another repository.  Let's take a look at our second option.</span></p>
         
     <hr />
@@ -82,43 +78,20 @@
         
         <p>One of the trickest parts of github is trying to understand why files with your origin won't sync or merge with the master. A lot of these problems are due to users initializing git in another directory and then adding files outside of that directory and trying to commit them. 
         
-        <span class = "nl">Github doesn't know the location of every single file and directory on your machine, this is why when you use the 'git init' command it creates a .git folder for that specific directory. Once you move out of that directory it will have trouble tracking the necessary files. To see which files are added, you can always check using the 'git status' command.</span>
+     <span class = "nl">Github doesn't know the location of every single file and directory on your machine, this is why when you use the 'git init' command it creates a .git folder for that specific directory. Once you move out of that directory it will have trouble tracking the necessary files. To see which files are added, you can always check using the 'git status' command.</span>
         
-        <span class = "nl">To avoid complications when pulling or pushing files from the origin to the master or when merging folders use the 'git clone' command. Pass the name of the repository to clone that correct one so 'git clone "https://www.github.com/username/reponame.git".</span>
+     <span class = "nl">To avoid complications when pulling or pushing files from the origin to the master or when merging folders use the 'git clone' command. Pass the name of the repository to clone that correct one so 'git clone "https://www.github.com/username/reponame.git".</span>
         
-        <span class = "nl">Of course you will still need to add the remote connection for that repo, use 'git remote -v' to check the connection and 'git remote set-url "https://www.github.com/username/reponame.git"' to change the name if it hasn't already done so.</span></p>
+     <span class = "nl">Of course you will still need to add the remote connection for that repo, use 'git remote -v' to check the connection and 'git remote set-url "https://www.github.com/username/reponame.git"' to change the name if it hasn't already done so.</span></p>
     
     <em>Code:</em>    
     <!-- code -->
     <pre class="code">
     <span class = "comments"># Create a clone of your online repo for your local machine</span>
     git clone "https://www.github.com/username/reponame.git" </pre>
-        
-        
-    <hr />    
-        
-    <!-- git push -->
-    <h3>Git Push</h3>
-        
-        <p>The git push command works by moving files from the origin on to the master. Where the origin refers to your local repository and your master is the online repository. 
-        
-        <span class = "nl">Pushing happens in one of three steps, first you must add the changes to your local repository. Adding usually means the file is tracked meaning that git is aware that the file will be added to the origin. This is done using the 'git add (filename)' command.</span>
-        
-        <span class = "nl">Its also possibly to track all the files in a directory by using just a dot instead, 'git add .'. Next we want to commit that file to our master, with a message for the purpose of commit it, anyone can commit a file or commit changes. So type in 'git commit -m "Explanation"', the -m stands for the message, the quotes contain the message string.</span>
-        
-        <span class = "nl">Finally, you want to push the file on to the master from the origin. For this you can type in 'git push -u origin master' or just simply 'git push', git will prompt you for a username and password depending on whether you have a KeyChain access set.</span></p>
-        
-    <em>Code:</em>    
-    <!-- code -->
-    <pre class="code">
-    <span class = "comments"># Copy changes from master repo to your local machine</span>
-    git pull 
-    
-     <span class = "comments"># Move files, edit existing ones or add new files to the master repo</span>
-    git push</pre>
-        
-        <hr />
-        <br />
+              
+    <hr />
+    <br />
         
     <a href ="Github1.html">Next Page</a>
         

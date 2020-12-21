@@ -136,13 +136,6 @@
         &lt;/executions>
       &lt;/plugin>
     &lt;/plugins>
-    &lt;resources>
-      &lt;resource>
-	&lt;directory>target/frontend&lt;/directory>
-        &lt;targetPath>static&lt;/targetPath>
-      &lt;/resource>
-    &lt;/resources>
-	  
   &lt;/build>
 
 &lt;/project></pre>
@@ -151,7 +144,30 @@
 
 <span class = "nl">The way execution works is by determining the commands to be typed in as well as the goal those commands will achieve. Typically we just need to run install node and npm, followed by the version numbers of that software. Since we already have scripts built into our angular application, running these commands will trigger the scripts they have, at this point we just need to specify where the compiled resource will be stored.</span>
 
-<span class = "nl">Since we are using maven and packaging this entire application into a target we will name it target/frontend and specify that the name of the folder in our spring application is called 'static'. We are using the 'static' directory since our frontend components will be stored in static/resources in our spring boot application.</span></p>
+<span class = "nl">Since we are using maven and packaging this entire application into a target we will name it target/frontend and specify that the name of the folder in our spring application is called 'static'. We are using the 'static' directory since our frontend components will be stored in static/resources in our spring boot application.</span>
+
+<span class = "nl">Let's make some final changes to our angular.json and package.json files.</span></p>
+
+<em>Angular.json</em>
+<pre class = "code"><span class = "comments">// change the 'outputPath'</span>
+"build": {
+  "builder": "@angular-devkit/build-angular:browser",
+  "options": {
+  "outputPath": "./static",</pre>        
+
+<p>Also the change the 'build' to production.</p>
+
+<em>Package.json</em>
+<pre class = "code">"scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    <span class = "comments">// change the build to production</span>
+    "build": "ng build --prod",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
+  },</pre>
+
 
 <hr />
 
@@ -278,20 +294,56 @@
 
 	&lt;build>
 		&lt;plugins>
-			&lt;plugin>
-				&lt;groupId>org.springframework.boot&lt;/groupId>
-				&lt;artifactId>spring-boot-maven-plugin&lt;/artifactId>
-			&lt;/plugin>
+		      &lt;plugin>
+			&lt;groupId>org.springframework.boot&lt;/groupId>
+			&lt;artifactId>spring-boot-maven-plugin&lt;/artifactId>
+		      &lt;/plugin>
+                      
+                      <span class = "comments">&lt;!-- be sure to add this plugin --></span>
+                      &lt;plugin>
+			&lt;artifactId>maven-resources-plugin&lt;/artifactId>
+			&lt;executions>
+			  &lt;execution>
+			    &lt;id>copy-resources&lt;/id>
+			    &lt;phase>validate&lt;/phase>
+			    &lt;goals>
+			      &lt;goal>copy-resources&lt;/goal>
+			    &lt;/goals>
+			    &lt;configuration>
+			      &lt;outputDirectory>${basedir}/target/classes/static/&lt;/outputDirectory>
+			      &lt;resources>
+				&lt;resource>
+				  &lt;directory>${basedir}/../frontend/static&lt;/directory>
+				&lt;/resource>
+			      &lt;/resources>
+			    &lt;/configuration>
+			  &lt;/execution>
+			&lt;/executions>
+		      &lt;/plugin>	
 		&lt;/plugins>
 	&lt;/build>
 
 &lt;/project></pre>
 
+<p>If we want to build and run our application then navigate to the directory where we created our multi module pom and run this command.</p>
 
+<em>Code:</em>
+<pre class = "code">mvn clean package
+<span class = "comments"># run the created jar</span>
+java -jar backend\target\backend-0.0.1-SNAPSHOT.jar</pre>
+
+<p>However, if you want to run the application for just testing purposes then go to our main pom again and use the install method. Followed by going to the backend module and running the spring-boot:start or spring-boot:run command.</p>
+
+<em>Code:</em>
+<pre class = "code">mvn install
+<span class = "comments"># navigate to backend</span>
+cd backend
+mvn spring-boot:start</span></pre>
+  
 <hr />
 <br />
-<a href="Java_Web35.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web37.html">Next Page</a></span>
+<a href="Java_Web36.html">Previous Page</a>
+<span class = "next"><a href = "Java_Web38.html">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->
