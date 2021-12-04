@@ -1,2 +1,4 @@
-#ignore sql files
+forum/
+login/
+dictionary/
 *.sql
