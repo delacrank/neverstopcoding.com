@@ -1,4 +1,4 @@
 forum/
 login/
-dictionary/
+dictionary/*
 *.sql

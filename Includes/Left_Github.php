@@ -3,5 +3,6 @@
 <ul>
 <li><a href="../Github/Github.html">Intro to Github</a></li>
 <li><a href="../Github/Github1.html">Adding and Removing files</a></li>
+<li><a href="../Github/Github2.html">Branching &amp; Merging</a></li>
     </ul></li></ul>
 </div>

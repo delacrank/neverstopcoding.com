@@ -79,7 +79,9 @@
     <span class = "comments"># -a skips the staging process</span>
     git commit -a -m "added a test file"
     git log
-    git reset &lt;commit-ref></pre>
+    git reset --soft HEAD~1</pre>
+
+    <p>This would take commit back to the staging area. From here we can remove staged files by using the 'git reset HEAD &lt;filename>' and then re-commit our other files.</p>
 
   <hr />
 
@@ -89,8 +91,7 @@
 
     <em>Code:</em>
     <pre class = "code">    <span class = "comments"># staging area to localdisk</span>
-    git checkout -- test3.txt</pre>
-      
+    git checkout -- test3.txt</pre>      
 	
     <hr />
     <br />
