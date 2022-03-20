@@ -8,7 +8,7 @@
 <li><a href="../Java_GUI/Java_GUI4.html">Event Handling</a></li>
 <li><a href="../Java_GUI/Java_GUI5.html">Keyboard Events</a></li>
 <li><a href="../Java_GUI/Java_GUI6.html">Mouse Events</a></li>
-<li><a href="../Java_GUI/Java_GUI7.html">something</a></li>
-<li><a href="../Java_GUI/Java_GUI8.html">something else</a></li>
+<li><a href="../Java_GUI/Java_GUI7.html">Calculator</a></li>
+<li><a href="../Java_GUI/Java_GUI8.html">Text Inputs</a></li>
     </ul></li></ul>
 </div>

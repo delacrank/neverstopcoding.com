@@ -24,9 +24,9 @@ Developing Software by Delacrank
         <li><a href= "../Bash/Bash.html">Bash Shell</a></li>
         <li><a href="../GDB/GDB.html">Gnu Debugger</a></li>
         <li><a href="../Github/Github.html">Github</a></li>
-        <li><a href = "../Assembly/Assembly.html">Assembly</a></li>
+        <li><a href="../Assembly/Assembly.html">Assembly</a></li>
         <li><a href="../C/C.html">C</a></li>
-        <li><a href= "../C++/C++.html">C++03</a></li>
+        <li><a href="../C++/C++.html">C++03</a></li>
         <li><a href="../Cpp/Cpp.html">C++11</a></li>
         <li><a href="../Cpp_Std_Lib/Cpp_Std_Lib.html">C++_Std_Lib</a></li>
         <li><a href="../SDL/SDL.html">SDL &nbsp;&nbsp;2.0</a></li>

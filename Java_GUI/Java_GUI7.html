@@ -118,6 +118,7 @@ public class CalculatorPanel extends JPanel {
 	ActionListener insert = new InsertAction();
 	ActionListener command = new CommandAction();
 
+	<span class= "comments">// create the panel and the grid layout</span>
 	panel = new JPanel();
 	panel.setLayout(new GridLayout(4, 4));
 
@@ -141,15 +142,22 @@ public class CalculatorPanel extends JPanel {
 	addButton("=", command);
 	addButton("+", command);
 
+	<span class = "comments">// we can place othis grid in the center of our panel</span>
 	add(panel, BorderLayout.CENTER);
     }
 
+    <span class = "comments">// we can use this method in order to add new
+    // buttons to our panel, it has parameters for label and listener</span>
     private void addButton(String label, ActionListener listener) {
 	JButton button = new JButton(label);
 	button.addActionListener(listener);
 	panel.add(button);
     }
 
+    <span class = "comments">/* this inner class has a method which takes the event
+    determine if the start value is true and then changes the text of the
+    display button, then resets the start back to false
+    this allows us to calculate only two values at a time */</span>
     private class InsertAction implements ActionListener {
 	public void actionPerformed(ActionEvent event) {
 	    String input = event.getActionCommand();
@@ -161,6 +169,10 @@ public class CalculatorPanel extends JPanel {
 	}
     }
 
+    <span class = "comments">/* finally the command action should  create a method
+    which takes the event, determines the type of action to be performed,
+    if based on the event. It takes the exception of the -  symbol though,
+    since this can also be used to set the value to a negative */</span>  
     private class CommandAction implements ActionListener {
 	public void actionPerformed(ActionEvent event) {
 	    String command = event.getActionCommand();
@@ -180,6 +192,7 @@ public class CalculatorPanel extends JPanel {
 	}
     }
 
+    <span class = "comments">// this method performs the necessary computations</span>
     public void calculate(double x) {
 	switch(lastCommand) {
 	case "+":
@@ -201,6 +214,8 @@ public class CalculatorPanel extends JPanel {
 	display.setText("" + result);
     }
 }</pre>
+
+  <p>This application does several different tasks. First it creates the layout of the buttons for the calculator. Next it initializes each of the buttons with either numbers or operators, finally it has a two listener classes. One for executing the two computation between two numbers and one for determining the type of compuation to be performed.</p>
     
 
       
