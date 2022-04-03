@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html;
+	charset=utf-8" />
+<title>Swing Inputs</title>
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel="stylesheet"><link href='http://fonts.googleapis.com/css?family=Cormorant+Infant' rel="stylesheet"><link rel="stylesheet"
+      type="text/css"
+      href="../testcss.css">
+</head>
+<body>
+    
+ <!-- Header -->
+<?php include('..//Includes//header.php'); ?>
+
+<!-- Navigation -->
+<?php include('..//Includes//nav.php'); ?>
+    
+<!-- Navigation2 -->
+<?php include('..//Includes//nav2.php'); ?>
+    
+<!-- Left --><div class = "mainWrapper">
+<?php include('..//Includes//Left_Java_GUI.php'); ?>
+    
+<!-- Right -->
+<div id ="rightz">
+
+  <h1>Java Swing Programming</h1>
+
+  <h2>Menu Items</h2>
+
+  <p>In this section we are going to go over how to create a drop down menu, and set accelators or shortcut keys to activate those items in the menu.
+
+    <span class = "nl">I'm going to start with several menu items and a pop up menu as well.</span></p>
+
+  <em>Code:</em>
+  <pre class = "code">package menu;
+
+import java.awt.event.*;
+import java.swing.*;
+
+public class MenuFrame extends JFrame {
+
+    public static final int DEFAULT_WIDTH = 300;
+    public static final int DEFAULT_HEIGHT = 200;
+
+    private Action saveAction;
+    private Action saveAsAction;
+    private JCheckBoxMenuItem readonlyItem;
+    private JPopupMenu popup;
+
+    class TestAction extends AbstractAction {
+
+      public TestAction(String name) {
+	super(name);
+      }
+
+      public void actionPerformaed(ActionEvent event) {
+        System.out.println(getValue(Action.NAME) + " selected.");
+      }
+    }
+    
+    public MenuFrame() {
+      setSize(DEFAULT_WIDTH, DEFAULT_HEIGHT);
+
+      JMenuItem openItem = fileMenu.add(new TestAction("Open"));
+      openItem.setAccelerator(KeyStroke.getKeyStroke("ctrl O"));
+
+      fileMenu.addSeperator();
+
+      saveAction = new TestAction("Save");
+    JMenuItem saveItem = fileMenu.add(saveAction);
+    saveItem.setAccelator(KeyStroke.getKeyStroke("ctrl S"));
+    
+    saveAsAction = new TestAction("Save as");
+    fileMenu.add(saveAsAction);
+    fileMenu.addSeperator();
+
+    fileMenu.add(new AbstractAction("Exit") {
+      public void actionPerformed(ActionEvent event) {
+        System.exit(0);
+      }
+    });
+
+    readonlyItem = new JCheckBoxMenuItem("Read-only");
+    readonlyItem.addActionListener(new ActionListener() {
+      public void actionPerformed(ActionEvent event) {
+        boolean saveOk = !readonlyItem.isSelected();
+	saveAction.setEnabled(saveOk);
+	saveAsAction.setEnabled(saveOk);
+     }
+    });
+
+    ButtonGroup group = new ButtonGroup();
+
+    JRadioButtonMenuItem insertItem = new JRadioButtonMenuItem("Insert");
+    insertItem.setSelected(true);
+    JRadioButtonMenuItem overtypeItem = new JRadioButtonMenuItem("Overtype");
+
+    group.add(insertItem);
+    group.add(overtypeItem);
+
+    Action cutAction = new TestAction("Cut");
+    cutAction.putValue(Action.SMALL_ICON, new ImageIcon("cut.gif"));
+    Action copyAction = new TestAction("Copy");
+    copyAction.putValue(Action.SMALL_ICON, new ImageIcon("copy.gif"));
+    Action pasteAction = new TestAction("Paste");
+    pasteAction.putValue(Action.SMALL_ICON, new ImageIcon("paste.gif"));
+
+    JMenu editMenu = new JMenu("Edit");
+    editMenu.add(cutAction);
+    editMenu.add(copyAction);
+    editMenu.add(pasteAction);
+
+    JMenu optionMenu = new JMenu("Options");
+    optionMenu.add(readonlyItem);
+    optionMenu.addSeperator();
+    optionMenu.add(insertItem);
+    optionMenu.add(overtypeItem);
+
+    editMenu.addSeperator();
+    editMenu.add(optionMenu);
+
+    JMenu helpMenu = JMenu("Help");
+    helpMenu.setMnemonic('H');
+
+    JMenu indexItem = new JMenuItem("Index");
+    indexItem.setMnemonic('I');
+    helpMenu.add(indexItem);
+
+    Action aboutAction = new TestAction("Action");
+    aboutAction.putValue(Action.MNEMONIC_KEY, new Integer('A'));
+    helpMenu.add(aboutAction);
+
+    JMenuBar menuBar = new JMenuBar();
+    setJMenuBar(menuBar);
+
+    menuBar.add(fileMenu);
+    menuBar.add(editMenu);
+    menuBar.add(helpMenu);
+
+    popup = new JPopupMenu();
+    popup.add(cutAction);
+    popup.add(copyAction);
+    popup.add(pasteAction);
+
+    JPanel panel = new JPanel();
+    panel.setComponentPopupMenu(popup);
+    add(panel);
+  }
+}</pre>
+
+
+    <hr />
+  <br />
+  <a href = "Java_GUI9.html">Previous Page</a>
+<span class = "next"><a href = "Java_GUI10.html">Next Page</a></span>
+<br /><br />
+</div>
+</div><!-- Footer -->
+<?php include('..//Includes//footer.php'); ?>
+</body>
+</html>
