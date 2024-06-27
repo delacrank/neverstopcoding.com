@@ -212,9 +212,9 @@ const GLuint WIDTH = 800, HEIGHT = 600;<br /><br /></span>
         
         <hr />        
         <br />
-        <a href = "OpenGL.html"> Previous Page</a>
+        <a href = "OpenGL.php"> Previous Page</a>
         <span class = "next">
-        <a href = "OpenGL2.html">Next Page</a>
+        <a href = "OpenGL2.php">Next Page</a>
         <br /><br />
 
     </div>

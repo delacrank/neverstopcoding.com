@@ -187,7 +187,7 @@
         
         <hr />        
         <br />
-        <a href = "MySQL1.html">Next Page</a></span>
+        <a href = "MySQL1.php">Next Page</a></span>
         <br />
         <br />
     </div>

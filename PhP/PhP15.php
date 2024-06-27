@@ -115,7 +115,7 @@
 <br />    
 <hr />
 
-<a href ="PhP14.html">Previous Page</a><span class ="next"><a href = "PhP16.html">Next Page</a></span>
+<a href ="PhP14.php">Previous Page</a><span class ="next"><a href = "PhP16.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

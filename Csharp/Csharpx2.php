@@ -118,9 +118,9 @@ This method will call the 'initializeComponent' method which: creates, displays,
 
 <hr />
 <br />
-<a href = "Csharp1.html">Previous Page</a>
+<a href = "Csharp1.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp3.html">Next Page</a></span>
+    <a href = "Csharp3.php">Next Page</a></span>
 <br /><br />
 </div>
 

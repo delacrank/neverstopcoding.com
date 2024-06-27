@@ -233,9 +233,9 @@
         
         <hr />        
         <br />
-        <a href = "SDL24.html">Previous</a>
+        <a href = "SDL24.php">Previous</a>
         <span class = "next">
-            <a href = "SDL26.html">Next Page</a></span>
+            <a href = "SDL26.php">Next Page</a></span>
         <br /><br />
 
     </div>

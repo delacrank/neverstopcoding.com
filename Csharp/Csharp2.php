@@ -146,9 +146,9 @@ Add(var1 : <span class="highlight">1</span>, var2 : <span class="highlight">var2
 <hr /> 
     
 <br />
-<a href = "Csharp1.html">Previous Page</a>
+<a href = "Csharp1.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp3.html">Next Page</a></span>
+    <a href = "Csharp3.php">Next Page</a></span>
 <br /><br />
 </div>
 

@@ -73,7 +73,7 @@
         
         <hr />
         <br />
-    <a href= "GDB.html">Previous</a>
+    <a href= "GDB.php">Previous</a>
     <br /><br />
 
     </div>    

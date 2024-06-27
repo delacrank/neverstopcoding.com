@@ -149,7 +149,7 @@
     <br />
     <hr />
     
-<a href="Java1.html">Previous</a> <span class = "next"><a href="Java3.html">Next page</a></span>
+<a href="Java1.php">Previous</a> <span class = "next"><a href="Java3.php">Next page</a></span>
 <br /><br />
 </div>
 

@@ -283,9 +283,9 @@
     <p>Notice how the last element wasn't changed in color, this is because it is neither in front or towards the back of the attribute value's quotes. The rule is that the style has to be touching either the front quote to use the ^, or the back quote to use the $, selector.</p> <hr />  
         
         <br />
-        <a href = "Css16.html">Previous Page</a>
+        <a href = "Css16.php">Previous Page</a>
         <span class = "next">
-        <a href = "Css18.html">Next Page</a></span>
+        <a href = "Css18.php">Next Page</a></span>
         <br />
         <br />
 

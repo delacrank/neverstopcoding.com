@@ -127,8 +127,8 @@
     <br />
     <hr />
     
-<a href="Java4.html">Previous</a> 
-<span class = "next"><a href="Java6.html">Next page</a></span>
+<a href="Java4.php">Previous</a> 
+<span class = "next"><a href="Java6.php">Next page</a></span>
 <br /><br />
 </div>
 

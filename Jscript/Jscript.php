@@ -128,7 +128,7 @@
     
 <hr />
 <br />
-<a href="Jscript1.html">Next Page</a>
+<a href="Jscript1.php">Next Page</a>
 <br /><br />    
     
 </div>

@@ -168,9 +168,9 @@
         
         <hr />        
         <br />
-        <a href = "OpenGL3.html"> Previous Page</a>
+        <a href = "OpenGL3.php"> Previous Page</a>
         <span class = "next">
-            <a href = "OpenGL5.html">Next Page</a></span>
+            <a href = "OpenGL5.php">Next Page</a></span>
         <br /><br />
 
     </div>

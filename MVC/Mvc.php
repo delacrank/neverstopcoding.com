@@ -154,7 +154,7 @@ Localhost:/Default1/Welcome/Juan/5 </pre>
     
 <br />
 <hr /><br />
-<a href = "Mvc1.html"> Next Page </a>
+<a href = "Mvc1.php"> Next Page </a>
 <br /><br />
 </div>
 

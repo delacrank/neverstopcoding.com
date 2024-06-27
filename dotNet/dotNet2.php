@@ -147,7 +147,7 @@ public class Form
 
 <hr />
 <br />
-<a href="dotNet1.html">Previous</a>   <span class="next"><a href="dotNet3.html">Next Page</a></span>
+<a href="dotNet1.php">Previous</a>   <span class="next"><a href="dotNet3.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

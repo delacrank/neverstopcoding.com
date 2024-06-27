@@ -119,7 +119,7 @@
 
 <hr />
 <br />
-<span class ="next"> <a href = "C++1.html">Next Page</a></span>
+<span class ="next"> <a href = "C++1.php">Next Page</a></span>
 <br /><br />
 </div>
 

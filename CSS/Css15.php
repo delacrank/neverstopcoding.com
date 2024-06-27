@@ -297,9 +297,9 @@ menu# li li li {
     
 <hr />
 <br />
-<a href = "Css14.html"> Previous Page</a>
+<a href = "Css14.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css16.html"> Next Page</a></span>
+    <a href = "Css16.php"> Next Page</a></span>
 <br /><br />
 </div>
 

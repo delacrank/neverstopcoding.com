@@ -131,8 +131,8 @@ export class WeatherLocation {
 	
 
   <hr />
-<a href="Angular.html">Previous Page</a>
-<span class="next"><a href="Angular2.html"> Next page</a></span>
+<a href="Angular.php">Previous Page</a>
+<span class="next"><a href="Angular2.php"> Next page</a></span>
 <br /><br />
 </div>
 

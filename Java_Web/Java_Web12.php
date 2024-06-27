@@ -109,8 +109,8 @@ public class HelloTag extends SimpleTagSupport {
   
   <hr />
   <br />
- <a href="Java_Web11.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web13.html">Next Page</a></span>
+ <a href="Java_Web11.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web13.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

@@ -158,9 +158,9 @@ int main()
 
 <hr />
 <br />
-<a href = "C++15.html">Previous page</a>
+<a href = "C++15.php">Previous page</a>
 <span class ="next">
-<a href = "C++17.html">Next Page </a></span>
+<a href = "C++17.php">Next Page </a></span>
 <br /><br />
 
 </div>

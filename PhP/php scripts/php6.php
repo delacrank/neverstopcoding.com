@@ -30,4 +30,4 @@
     
     <p><a href ="php6.php">Please Try Again!</a></p>
     
-    <p><a href ="../PhP6.html"> Back to main page </a></p>
+    <p><a href ="../PhP6.php"> Back to main page </a></p>

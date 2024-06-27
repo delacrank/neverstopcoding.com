@@ -98,7 +98,7 @@
         
         <hr />        
         <br />
-        <a href = "Allegro1.html">Next Page</a>
+        <a href = "Allegro1.php">Next Page</a>
         <br /><br />
 
     </div>

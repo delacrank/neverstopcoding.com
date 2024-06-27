@@ -98,8 +98,8 @@ export class AppModule { }</pre>
 <span class = "nl">In the next section we are going to be looking at ways to provide navigation to our routes.</span></p>
 
  <hr />
-<a href="Angular13.html">Previous Page</a>
-<span class="next"><a href="Angular15.html"> Next page</a></span>
+<a href="Angular13.php">Previous Page</a>
+<span class="next"><a href="Angular15.php"> Next page</a></span>
 <br /><br />
 </div>
 

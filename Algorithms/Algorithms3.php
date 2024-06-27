@@ -136,8 +136,8 @@
     
 <hr />
 <br />
-<a href="Algorithms2.html">Previous</a>
-<span class = "next"><a href='Algorithms4.html'>Next</a></span>
+<a href="Algorithms2.php">Previous</a>
+<span class = "next"><a href='Algorithms4.php'>Next</a></span>
     
 <br /><br />
 </div>

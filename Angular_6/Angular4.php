@@ -110,8 +110,8 @@ getTodoItems() {
 
 
    <hr />
-<a href="Angular3.html">Previous Page</a>
-<span class="next"><a href="Angular5.html"> Next page</a></span>
+<a href="Angular3.php">Previous Page</a>
+<span class="next"><a href="Angular5.php"> Next page</a></span>
 <br /><br />
 </div>
 

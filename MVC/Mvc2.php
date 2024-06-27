@@ -158,8 +158,8 @@ namespace MvcApplication1.Models
     
 <br />
 <hr /><br />
-<a href = "Mvc1.html"> Previous Page </a> 
-    <span class ="next"><a href = "Mvc3.html">Next Page</a></span>
+<a href = "Mvc1.php"> Previous Page </a> 
+    <span class ="next"><a href = "Mvc3.php">Next Page</a></span>
 <br /><br />
 </div>
 

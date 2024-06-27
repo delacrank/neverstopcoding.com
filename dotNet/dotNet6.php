@@ -189,7 +189,7 @@ Cache["CacheItem1"] = "Cached Item 1";</pre>
 
 <hr />
 <br />
-<a href="dotNet5.html">Previous</a><span class="next"><a href="dotNet7.html">Next Page</a></span>
+<a href="dotNet5.php">Previous</a><span class="next"><a href="dotNet7.php">Next Page</a></span>
 <br /><br />
 </div>
 

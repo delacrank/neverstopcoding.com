@@ -81,8 +81,8 @@
 
 
     <hr /><br />
-    <a href="ci4.html">Previous Page</a>
-    <span class ="next"><a href="ci6.html">Next Page</a></span>
+    <a href="ci4.php">Previous Page</a>
+    <span class ="next"><a href="ci6.php">Next Page</a></span>
     <br /><br />
     </div>
 

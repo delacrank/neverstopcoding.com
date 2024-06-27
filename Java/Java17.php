@@ -43,8 +43,8 @@
   <pre class = "code">java -jar Main.jar</pre>
   
   
-  <a href="Java16.html">Previous</a>
-    <span class = "next"><a href="Java18.html">Next</span></a>
+  <a href="Java16.php">Previous</a>
+    <span class = "next"><a href="Java18.php">Next</span></a>
 <br /><br />
 </div>
 

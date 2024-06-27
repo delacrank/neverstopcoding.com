@@ -90,9 +90,9 @@
         
         <hr />        
         <br />
-        <a href = "MySQL.html"> Previous Page</a>
+        <a href = "MySQL.php"> Previous Page</a>
         <span class = "next">
-        <a href = "MySQL2.html">Next Page</a></span>
+        <a href = "MySQL2.php">Next Page</a></span>
         <br /><br />
     </div>
     

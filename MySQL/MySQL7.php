@@ -398,9 +398,9 @@
         
         <hr />        
         <br />
-        <a href = "MySQL6.html"> Previous Page</a>
+        <a href = "MySQL6.php"> Previous Page</a>
         <span class = "next">
-        <a href = "MySQL8.html">Next Page</a></span>
+        <a href = "MySQL8.php">Next Page</a></span>
         <br /><br />
 
     </div>

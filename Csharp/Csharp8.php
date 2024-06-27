@@ -122,9 +122,9 @@ if ( temp != null )
     
 <hr />
 <br />
-<a href = "Csharp7.html">Previous Page</a>
+<a href = "Csharp7.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp9.html">Next Page</a></span>
+    <a href = "Csharp9.php">Next Page</a></span>
 <br /><br />
 </div>
 

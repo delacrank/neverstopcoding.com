@@ -134,8 +134,8 @@ $('#btn3').click(function(){
 <hr />
 <br />
     
-<a href="JQuery1.html">Previous Page</a><span class="next">    
-<a href="JQuery3.html"> Next page</a></span>
+<a href="JQuery1.php">Previous Page</a><span class="next">    
+<a href="JQuery3.php"> Next page</a></span>
 <br /><br />
 </div>
 

@@ -112,8 +112,8 @@ class FontComponent extends JComponent {
   
     <hr />
   <br />
-  <a href = "Java_GUI1.html">Previous Page</a>
-<span class = "next"><a href = "Java_GUI3.html">Next Page</a></span>
+  <a href = "Java_GUI1.php">Previous Page</a>
+<span class = "next"><a href = "Java_GUI3.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

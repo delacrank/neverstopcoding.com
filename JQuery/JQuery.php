@@ -122,7 +122,7 @@ $('.btn2').click(function() {
 <br />
 <hr />
      
-<a href="JQuery1.html"> Next page</a>
+<a href="JQuery1.php"> Next page</a>
 <br /><br />
 </div>
 

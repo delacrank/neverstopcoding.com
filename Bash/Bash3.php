@@ -78,7 +78,7 @@ echo $num6</pre>
 
 <hr />
 <br />
-<a href="Bash2.html">Previous</a><span class = "next"><a href="Bash4.html">Next</a></span>
+<a href="Bash2.php">Previous</a><span class = "next"><a href="Bash4.php">Next</a></span>
 <br /><br />
 
     </div>    

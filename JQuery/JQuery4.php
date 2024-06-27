@@ -80,7 +80,7 @@ $('a').click( function (evt) {
 });</pre>
 <br />    
 <em>Example:</em><br /><br />
-<a id = "ok1" href="JQuery.html">Link</a>
+<a id = "ok1" href="JQuery.php">Link</a>
 <script>
 $('#ok1').click( function (evt) {
     evt.preventDefault();
@@ -251,7 +251,7 @@ $('#btn6').on('mouseover', hoverMessage, button);
 <br />
 <hr />
     
-<a href="JQuery3.html">Previous Page</a>
+<a href="JQuery3.php">Previous Page</a>
 <span class = "next"><a href='JQuery5.html'>Next Page</a></span>
 <br /><br />
 </div>

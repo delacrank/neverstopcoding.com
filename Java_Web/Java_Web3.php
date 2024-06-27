@@ -94,8 +94,8 @@ public class Hello_World extends HttpServlet {
 
   <hr />
   <br />
- <a href="Java_Web2.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web4.html">Next Page</a></span>
+ <a href="Java_Web2.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web4.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

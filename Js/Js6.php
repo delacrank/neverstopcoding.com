@@ -136,7 +136,7 @@ function checkUsername(minLength) {
 elUsername.addEventListener('blur', function() { checkUsername(5); }, false);</pre>
     
 <hr />
-<a href="Js5.html">Previous Page</a>  <span class="next"><a href="Js7.html"> Next page</a></span>
+<a href="Js5.php">Previous Page</a>  <span class="next"><a href="Js7.php"> Next page</a></span>
 <br /><br />  
 </div>
 

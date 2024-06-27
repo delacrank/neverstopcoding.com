@@ -330,8 +330,8 @@ public class DesignTacoController {
 
 <hr />
 <br />
-<a href="Java_Web23.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web25.html">Next Page</a></span>
+<a href="Java_Web23.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web25.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

@@ -120,7 +120,7 @@
 <span class = "nl"> We could create several pages like this without having to constantly re-write code, and modifying our entire website can be reduced to changing some code in either a model, or a controller.</span></p>    
     
 <hr /><br />
-<a href = "Mvc3.html"> Previous Page </a> 
+<a href = "Mvc3.php"> Previous Page </a> 
 <br /><br />
 </div>
 

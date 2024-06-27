@@ -165,7 +165,7 @@
 
 <hr />
     
-<a href="JQuery5.html">Previous Page</a>
+<a href="JQuery5.php">Previous Page</a>
 <span class = "next"><a href='JQuery7.html'>Next Page</a></span>
 <br /><br />
 </div>

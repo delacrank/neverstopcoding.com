@@ -100,8 +100,8 @@
 <br /><br />
 <hr />
 <br />
-<a href = "Html2.html"> Previous Page</a>
-<span class ="next"><a href = "Html4.html"> Next Page</a></span>
+<a href = "Html2.php"> Previous Page</a>
+<span class ="next"><a href = "Html4.php"> Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

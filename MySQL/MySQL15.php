@@ -139,8 +139,8 @@
     use database bookmarks; show tables; describe user;</pre>      
      <hr />        
         <br />
-        <a href = "MySQL14.html"> Previous Page</a>
-       <!-- <span class="next"><a href ="MySQL16.html">Next Page</a></span> -->
+        <a href = "MySQL14.php"> Previous Page</a>
+       <!-- <span class="next"><a href ="MySQL16.php">Next Page</a></span> -->
         <br /><br />
     </div>
 </div><!-- Footer -->

@@ -39,7 +39,7 @@
         
         <hr />
         <br />
-        <a href="Cpp38.html">Previous</a>
+        <a href="Cpp38.php">Previous</a>
         <br /><br />
 
     </div>    

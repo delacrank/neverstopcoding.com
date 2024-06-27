@@ -193,7 +193,7 @@ print "<br />" . "egg number: " . $egg[6][0] . " yolk per egg: " . $egg[6][1];
     
 <hr />
 <br />
-<a href ="PhP8.html">Previous Page</a><span class ="next"><a href = "PhP10.html">Next Page</a></span>
+<a href ="PhP8.php">Previous Page</a><span class ="next"><a href = "PhP10.php">Next Page</a></span>
 <br /><br />
 </div>
 

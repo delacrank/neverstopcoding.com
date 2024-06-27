@@ -136,7 +136,7 @@ $address = "132 Main St.";
     
 <hr />
 <br />
-<a href ="PhP2.html">Previous Page</a><span class ="next"><a href = "PhP4.html">Next Page</a></span>
+<a href ="PhP2.php">Previous Page</a><span class ="next"><a href = "PhP4.php">Next Page</a></span>
 <br /><br />
 </div>
 

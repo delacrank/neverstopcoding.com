@@ -299,7 +299,7 @@ class Program
 
 <hr />
 <br />
-<a href="dotNet3.html">Previous</a><span class="next"><a href="dotNet5.html">Next Page</a></span>
+<a href="dotNet3.php">Previous</a><span class="next"><a href="dotNet5.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

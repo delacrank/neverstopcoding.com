@@ -197,7 +197,7 @@ int a = (int)x;</pre>
     
 <hr />
 <br />
-<a href="dotNet1.html">Next Page</a>
+<a href="dotNet1.php">Next Page</a>
 <br /><br />
 </div>
 </div><!-- Footer -->

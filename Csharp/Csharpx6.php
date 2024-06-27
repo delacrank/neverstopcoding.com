@@ -71,9 +71,9 @@ class Point<br />
     
 <hr />
 <br />
-<a href = "Csharp5.html">Previous Page</a>
+<a href = "Csharp5.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp7.html">Next Page</a></span>
+    <a href = "Csharp7.php">Next Page</a></span>
 <br /><br />
 </div>
 

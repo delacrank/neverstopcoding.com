@@ -241,9 +241,9 @@ redirect_user('PhP31.html');
         
         <hr />        
         <br />
-        <a href = "PhP30.html"> Previous Page</a>
+        <a href = "PhP30.php"> Previous Page</a>
         <span class = "next">
-        <a href = "PhP32.html">Next Page</a></span>
+        <a href = "PhP32.php">Next Page</a></span>
         <br />
         <br />
 

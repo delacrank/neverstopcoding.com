@@ -102,9 +102,9 @@ void EatAtJoes()
     
 <hr />
 <br />
-<a href = "C++19.html">Previous page</a>
+<a href = "C++19.php">Previous page</a>
 <span class ="next">
-<a href = "C++21.html">Next Page </a></span>
+<a href = "C++21.php">Next Page </a></span>
 <br /><br />
 
 </div>

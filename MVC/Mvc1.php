@@ -175,8 +175,8 @@ public ActionResult View1()
 <p>Don't get confused with '@' tags and '&lt;%' tags when working with our .cshtml file.  The only time the razor view engine requires the '&lt;%' tags is when we are working with .aspx files.</p>
 
 <hr /><br />
-<a href = "Mvc.html"> Previous Page </a> 
-    <span class ="next"><a href = "Mvc2.html">Next Page</a></span>
+<a href = "Mvc.php"> Previous Page </a> 
+    <span class ="next"><a href = "Mvc2.php">Next Page</a></span>
 <br /><br />
 </div>
 

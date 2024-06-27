@@ -73,9 +73,9 @@
     
         <hr />
         <br />
-        <a href="Bash.html">Previous</a>
+        <a href="Bash.php">Previous</a>
         <span class = "next">
-        <a href = "Bash2.html">Next Page</a></span>
+        <a href = "Bash2.php">Next Page</a></span>
         <br /><br />
 
     </div>    

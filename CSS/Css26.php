@@ -405,9 +405,9 @@
         
         <hr />        
         <br />
-        <a href = "Css25.html"> Previous Page</a>
+        <a href = "Css25.php"> Previous Page</a>
         <span class = "next">
-        <a href = "Css27.html">Next Page</a></span>
+        <a href = "Css27.php">Next Page</a></span>
         <br />
         <br />
 

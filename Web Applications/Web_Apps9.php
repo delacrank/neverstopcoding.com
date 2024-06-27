@@ -92,8 +92,8 @@
         
 <hr />
 <br />
-<a href = "Web_Apps8.html">Previous Page</a>
-<span class = "next"><a href = "Web_Apps10.html">Next Page</a></span>
+<a href = "Web_Apps8.php">Previous Page</a>
+<span class = "next"><a href = "Web_Apps10.php">Next Page</a></span>
 <br /><br />
 
 </div>

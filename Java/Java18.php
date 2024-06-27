@@ -27,7 +27,7 @@
 <!-- Right --> 
 <div id ="rightz">
 
-  <a href="Java16.html">Previous</a> 
+  <a href="Java16.php">Previous</a> 
 <br /><br />
 </div>
 

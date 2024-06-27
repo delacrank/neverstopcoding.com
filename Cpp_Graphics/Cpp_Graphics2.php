@@ -30,8 +30,8 @@
     
   <hr />
   <br />
-   <a href="Cpp_Graphics.html">Previous Page</a>
- <span class = "next"><a href="Cpp_Graphics2.html">Next Page</a></span>
+   <a href="Cpp_Graphics.php">Previous Page</a>
+ <span class = "next"><a href="Cpp_Graphics2.php">Next Page</a></span>
   <br /><br />
   </div>
 

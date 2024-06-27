@@ -115,7 +115,7 @@ print "</p>";
                 $userName = $_POST["<span class="highlight">userName</span>"]; 
                 print "&#60;h1> Hi, $userName!&#60;/h1>"; 
                 
-                print '&lt;a href="PhP4.html">Click here to go Back&lt;/a>';
+                print '&lt;a href="PhP4.php">Click here to go Back&lt;/a>';
             ?>
         &#60;/body>
     &#60;/html></pre>
@@ -171,7 +171,7 @@ We can use a keyword called empty to make sure the field is filled and if it isn
             echo 'Please enter a username.&lt;br />&lt;br />';
         }    
         
-        print '&lt;a href="PhP4.html">Click here to go Back&lt;/a>';
+        print '&lt;a href="PhP4.php">Click here to go Back&lt;/a>';
     &#63;></pre>
 <br />
 
@@ -191,7 +191,7 @@ submit
 
 <hr />
 <br />
-<a href ="PhP3.html">Previous Page</a><span class ="next"><a href = "PhP5.html">Next Page</a></span>
+<a href ="PhP3.php">Previous Page</a><span class ="next"><a href = "PhP5.php">Next Page</a></span>
 <br /><br />
 </div>
 

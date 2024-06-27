@@ -40,7 +40,7 @@
     
   <hr />
   <br />
-  <a href = "Typescript1.html">Next</a>
+  <a href = "Typescript1.php">Next</a>
 
 <br /><br />
 </div>

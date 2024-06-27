@@ -213,8 +213,8 @@
     
         <hr />        
         <br />
-        <a href = "Css29.html"> Previous Page</a>
-        <span class = "next"><a href = "Css31.html">Next Page</a></span> 
+        <a href = "Css29.php"> Previous Page</a>
+        <span class = "next"><a href = "Css31.php">Next Page</a></span> 
     <br /><br />
     </div>
 </div><!-- Footer -->

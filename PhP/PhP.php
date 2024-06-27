@@ -119,7 +119,7 @@ markup for creating dynamic webpages.
     
 <hr />
 <br />
-<a href = "PhP1.html">Next Page</a>
+<a href = "PhP1.php">Next Page</a>
 <br /><br />
 
 </div>

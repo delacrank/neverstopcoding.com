@@ -11,4 +11,4 @@ print "<p>Your picutre is the sky picture!</p>";
 ?>
 <p><a href = "php8.php">Try again!</a></p> 
 
-<p><a href = "../PhP8.html">Back to Main Page</a>
+<p><a href = "../PhP8.php">Back to Main Page</a>

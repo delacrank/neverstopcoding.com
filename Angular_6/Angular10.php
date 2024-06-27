@@ -64,8 +64,8 @@ changeCategory(newCategory?: string) {
   
 
 <hr />
-<a href="Angular9.html">Previous Page</a>
-<span class="next"><a href="Angular11.html"> Next page</a></span>
+<a href="Angular9.php">Previous Page</a>
+<span class="next"><a href="Angular11.php"> Next page</a></span>
 <br /><br />
 </div>
 

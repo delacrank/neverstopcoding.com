@@ -134,8 +134,8 @@ export class CartDetailComponent {
 <span class = "nl">There are two buttons underneath our cart detail table, one button takes us back to the '/store' route, the next button takes us to the '/checkout' route. We will create the component for that next.</span></p>
 
   <hr />
-<a href="Angular15.html">Previous Page</a>
-<span class="next"><a href="Angular17.html"> Next page</a></span>
+<a href="Angular15.php">Previous Page</a>
+<span class="next"><a href="Angular17.php"> Next page</a></span>
 <br /><br />
 </div>
 

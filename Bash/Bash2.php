@@ -73,7 +73,7 @@
         
         <hr />
         <br />
-        <a href="Bash1.html">Previous</a><span class = "next"><a href="Bash3.html">Next</a></span>
+        <a href="Bash1.php">Previous</a><span class = "next"><a href="Bash3.php">Next</a></span>
         <br /><br />
 
     </div>    

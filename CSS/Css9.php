@@ -133,7 +133,7 @@ We are starting to get a grasp of how to move our elements around the page, now 
 
 <!-- Example -->
 <em>Example:</em>
-<form action = "Css9.html">
+<form action = "Css9.php">
 <fieldset>
 <label>Name</label>  
     <input type = "text"
@@ -185,7 +185,7 @@ button {
 <!-- Example -->
 <em>Example:</em>
 <br /><br />
-<form action ="Css9.html">
+<form action ="Css9.php">
 <fieldset class = "fieldset">
 <label class = "label">Name</label>  
     <input type = "text"
@@ -248,7 +248,7 @@ button {
 
 <em>Example:</em>
 <br /><br />
-<form action ="Css9.html">
+<form action ="Css9.php">
 <fieldset class = "fieldset">
 <label class = "labelclear">Name</label>  
     <input class = "input" type = "text"
@@ -350,9 +350,9 @@ submit request
 <br />
 <hr />
 <br />
-<a href = "Css8.html"> Previous Page</a>
+<a href = "Css8.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css10.html"> Next Page</a></span>
+    <a href = "Css10.php"> Next Page</a></span>
 <br /><br />
 </div>
 

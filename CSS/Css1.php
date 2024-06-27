@@ -175,9 +175,9 @@ Lets say we have one class which has font size 20 and another which color is blu
 
 <hr />
 <br />
-<a href = "Css.html"> Previous Page</a>
+<a href = "Css.php"> Previous Page</a>
 <span class = "next">
-<a href = "Css2.html"> Next Page</a></span>
+<a href = "Css2.php"> Next Page</a></span>
 <br /><br />
 </div>
 

@@ -182,9 +182,9 @@ echo '<p> Please enter a valid integer for number one and number two.</p>';
     
         <hr />        
         <br />
-        <a href = "../PhP/PhP6.html"> Previous Page</a>
+        <a href = "../PhP/PhP6.php"> Previous Page</a>
         <span class = "next">
-        <a href = "../PhP/PhP7.html">Next Page</a></span>
+        <a href = "../PhP/PhP7.php">Next Page</a></span>
         <br />
         <br />
 

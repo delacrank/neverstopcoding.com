@@ -173,8 +173,8 @@
 
 <hr />
 <br />
-<a href="Java_Web19.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web21.html">Next Page</a></span>
+<a href="Java_Web19.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web21.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

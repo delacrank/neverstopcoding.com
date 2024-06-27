@@ -286,9 +286,9 @@ li:hover > ul {
 <hr />
 <br />
 
-<a href = "Css13.html"> Previous Page</a>
+<a href = "Css13.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css15.html"> Next Page</a></span>
+    <a href = "Css15.php"> Next Page</a></span>
 <br /><br />
 </div>
 

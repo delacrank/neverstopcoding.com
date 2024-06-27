@@ -128,9 +128,9 @@ namespace Parameters
     
 <hr />
 <br />
-<a href = "Csharp6.html">Previous Page</a>
+<a href = "Csharp6.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp8.html">Next Page</a></span>
+    <a href = "Csharp8.php">Next Page</a></span>
 <br /><br />
 </div>
 

@@ -88,7 +88,7 @@ src="https://www.youtube.com/embed/VTd8GSYOiZE">
 
         <hr />        
         <br />
-        <a href = "OpenGL1.html">Next Page</a></span>
+        <a href = "OpenGL1.php">Next Page</a></span>
         <br /><br />
     </div>
 

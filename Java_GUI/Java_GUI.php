@@ -112,7 +112,7 @@ class SizedFrame extends JFrame {
   
   <hr />
   <br />
-<a href = "Java_GUI1.html">Next Page</a></span>
+<a href = "Java_GUI1.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

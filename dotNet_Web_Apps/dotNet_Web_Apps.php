@@ -176,7 +176,7 @@
     
 <hr />
 <br />
-<a href="dotNet_Web_Apps1.html">Next Page</a>
+<a href="dotNet_Web_Apps1.php">Next Page</a>
 <br /><br />
 </div>
 </div><!-- Footer -->

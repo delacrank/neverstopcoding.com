@@ -160,8 +160,8 @@
         
 <hr />
 <br />
-<a href="Jscript18.html">Previous</a>
-<span class = "next"><a href="Jscript20.html">Next Page</a></span>
+<a href="Jscript18.php">Previous</a>
+<span class = "next"><a href="Jscript20.php">Next Page</a></span>
 <br /><br />    
     
 </div>

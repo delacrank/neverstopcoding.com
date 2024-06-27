@@ -93,7 +93,7 @@
         <hr />        
         <br />
         <span class = "next">
-            <a href = "SDL1.html">Next Page</a></span>
+            <a href = "SDL1.php">Next Page</a></span>
         <br /><br />
 
     </div>

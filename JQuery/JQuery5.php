@@ -96,7 +96,7 @@
 <br />
 <hr />
     
-<a href="JQuery4.html">Previous Page</a>
+<a href="JQuery4.php">Previous Page</a>
 <span class = "next"><a href='JQuery6.html'>Next Page</a></span>
 <br /><br />
 </div>

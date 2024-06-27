@@ -99,8 +99,8 @@
     
 <hr />
 <br />
-<a href="Seo1.html">Previous</a>
-<span class = "next"><a href="Seo3.html">Next Page</a></span>
+<a href="Seo1.php">Previous</a>
+<span class = "next"><a href="Seo3.php">Next Page</a></span>
 <br /><br />    
     
 </div>

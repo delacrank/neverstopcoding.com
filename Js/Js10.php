@@ -220,7 +220,7 @@ function animate() {
     
 <br />
 <hr />
-<a href="Js9.html">Previous Page</a> 
+<a href="Js9.php">Previous Page</a> 
 <br /><br />  
 </div>
 

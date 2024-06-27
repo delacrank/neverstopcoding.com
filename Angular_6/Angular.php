@@ -74,12 +74,12 @@ npm i --save bootstrap
 <span class = "comments"># spin up angular server</span>
 ng serve --port 3000 --open</pre>
 
-<p>Once you have completed these steps you can make changes to your angular app by navigating to your 'todo' folder and going to the 'src' folder. You can open the index.html file and start modifying it, we will start by working with a simple todo app.</p>
+<p>Once you have completed these steps you can make changes to your angular app by navigating to your 'todo' folder and going to the 'src' folder. You can open the index.php file and start modifying it, we will start by working with a simple todo app.</p>
 
 
     <hr />
-<a href="Angular1.html">Previous Page</a>
-<span class="next"><a href="Angular1.html"> Next page</a></span>
+<a href="Angular1.php">Previous Page</a>
+<span class="next"><a href="Angular1.php"> Next page</a></span>
 <br /><br />
 </div>
 

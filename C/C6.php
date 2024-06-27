@@ -34,7 +34,7 @@
         <hr />
         <br />
     
-<a href = "C5.html">Previous page</a>
+<a href = "C5.php">Previous page</a>
 <br /><br />
 
 </div>

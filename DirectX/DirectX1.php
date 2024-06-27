@@ -66,7 +66,7 @@
         <hr />        
         <br />
 
-        <a href="DirectX.html">Previous Page</a>
+        <a href="DirectX.php">Previous Page</a>
         <br /><br />
 
     </div>    

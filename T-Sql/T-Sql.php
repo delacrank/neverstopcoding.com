@@ -88,7 +88,7 @@ EXEC sp_rename 'Sales', 'SaleOrder'</pre>
 
 <br />
 <hr /><br />
-<a href = "T-Sql1.html">Next Page</a></span>
+<a href = "T-Sql1.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

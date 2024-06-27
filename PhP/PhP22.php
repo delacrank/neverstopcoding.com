@@ -220,9 +220,9 @@ echo '<h1> Thank You! </h1>
 <p> Your password has been updated </p>  
     <hr />        
     <br />
-    <a href = "../PhP/PhP21.html"> Previous Page</a>
+    <a href = "../PhP/PhP21.php"> Previous Page</a>
     <span class = "next">
-    <a href = "../PhP/PhP23.html">Next Page</a></span>
+    <a href = "../PhP/PhP23.php">Next Page</a></span>
     <br /><br />';
 } else {
 // Error message
@@ -284,9 +284,9 @@ mysqli_close($dbc); }
         
         <hr />        
         <br />
-        <a href = "PhP21.html"> Previous Page</a>
+        <a href = "PhP21.php"> Previous Page</a>
         <span class = "next">
-        <a href = "PhP23.html">Next Page</a></span>
+        <a href = "PhP23.php">Next Page</a></span>
         <br />
         <br />
 

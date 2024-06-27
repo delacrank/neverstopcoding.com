@@ -220,8 +220,8 @@ $('#btn6').click(function() {
 <br />
 <hr />
     
-<a href="JQuery.html">Previous Page</a><span class="next">    
-<a href="JQuery2.html"> Next page</a></span>
+<a href="JQuery.php">Previous Page</a><span class="next">    
+<a href="JQuery2.php"> Next page</a></span>
 <br /><br />
 </div>
 

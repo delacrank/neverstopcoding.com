@@ -50,7 +50,7 @@
             <p>In the next section we will start by building our first web application. However you should know that code igniter has its own documentation which I think might be more useful then what I will be providing.</p>
 
     <hr /><br />
-    <span class ="next"><a href="ci1.html">Next Page</a></span>
+    <span class ="next"><a href="ci1.php">Next Page</a></span>
     <br /><br />
     </div>
 

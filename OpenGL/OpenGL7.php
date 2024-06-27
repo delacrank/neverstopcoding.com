@@ -64,7 +64,7 @@
         
         <hr />        
         <br />
-        <a href = "OpenGL6.html"> Previous Page</a>
+        <a href = "OpenGL6.php"> Previous Page</a>
         <br /><br />
 
     </div>

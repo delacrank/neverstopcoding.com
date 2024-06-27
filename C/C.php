@@ -123,7 +123,7 @@
         
     <br />
     <hr />
-    <a href = "C1.html">Next Page</a>
+    <a href = "C1.php">Next Page</a>
 <br /><br />
 </div>
     

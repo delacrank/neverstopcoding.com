@@ -177,7 +177,7 @@ print_r($varArray);
     
 <hr />
 <br />
-<a href ="PhP9.html">Previous Page</a><span class ="next"><a href = "PhP11.html">Next Page</a></span>
+<a href ="PhP9.php">Previous Page</a><span class ="next"><a href = "PhP11.php">Next Page</a></span>
 <br /><br />
 
 </div>

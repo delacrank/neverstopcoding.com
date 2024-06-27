@@ -132,7 +132,7 @@
 <br />
 <hr />
     
-<a href="JQuery6.html">Previous Page</a>
+<a href="JQuery6.php">Previous Page</a>
 <!--<span class = "next"><a href='JQuery8.html'>Next Page</a></span>-->
 <br /><br />
 </div>

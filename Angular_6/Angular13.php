@@ -238,8 +238,8 @@ export class StoreModule { }</pre>
   <p>This was a rather long section, but it was necessary to show what we needed to do in order to add a cart to our store. In the next section we are going to add a checkout system.</p>
 
   <hr />
-<a href="Angular12.html">Previous Page</a>
-<span class="next"><a href="Angular14.html"> Next page</a></span>
+<a href="Angular12.php">Previous Page</a>
+<span class="next"><a href="Angular14.php"> Next page</a></span>
 <br /><br />
 </div>
 

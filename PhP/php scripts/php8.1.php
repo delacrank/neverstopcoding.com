@@ -16,4 +16,4 @@ print "<p>You picture the sky picture $twoCount times!</p>";
 ?>
 <p><a href = "php8.1.php">Try again!</a></p> 
 
-<p><a href="../PhP8.html">Back to Main Page</a></p>
+<p><a href="../PhP8.php">Back to Main Page</a></p>

@@ -98,7 +98,7 @@ graphics > image.ppm</pre>
 
   <hr />
   <br />
-  <a href="Cpp_Graphics1.html">Next Page</a>
+  <a href="Cpp_Graphics1.php">Next Page</a>
   <br /><br />
   </div>
 

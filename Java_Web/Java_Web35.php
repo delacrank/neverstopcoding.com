@@ -167,8 +167,8 @@ public class DesignTacoController {
 
   <hr />
 <br />
-<a href="Java_Web34.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web36.html">Next Page</a></span>
+<a href="Java_Web34.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web36.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

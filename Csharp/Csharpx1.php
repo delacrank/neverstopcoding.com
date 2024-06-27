@@ -130,9 +130,9 @@ We have a window with two elements, a TextBlock which displays information for a
     
 <hr />
 <br />
-<a href = "Csharp.html">Previous Page</a>
+<a href = "Csharp.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp2.html">Next Page</a></span>
+    <a href = "Csharp2.php">Next Page</a></span>
 <br /><br />
 </div>
 

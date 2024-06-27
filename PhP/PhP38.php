@@ -95,7 +95,7 @@
         
         &lt;p> Answer is &lt;?php echo $answer ?> &lt;/p>
         
-    &lt;a href="calculator.html">Back to main&lt;/a></pre>
+    &lt;a href="calculator.php">Back to main&lt;/a></pre>
     
     <p>Alright, well you see the problem here is that all this code is really messy. There is html mixed in with html, and also are code isn't divided into functions. Image how long our page would be if all of our functions were in the results.php file.  Let's start by creating something called a model, this is where we can store our functions.</p>
     
@@ -253,7 +253,7 @@
      
 <hr />
 <br />
-<a href = "PhP37.html">Previous Page</a>
+<a href = "PhP37.php">Previous Page</a>
 <br /><br />
 
 </div>

@@ -95,8 +95,8 @@
     <span class ="nl">In the next section we will build our first controller.</span></p>
 
     <hr /><br />
-    <a href="ci1.html">Previous Page</a>
-    <span class ="next"><a href="ci3.html">Next Page</a></span>
+    <a href="ci1.php">Previous Page</a>
+    <span class ="next"><a href="ci3.php">Next Page</a></span>
     <br /><br />
     </div>
 

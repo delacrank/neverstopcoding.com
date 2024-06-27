@@ -172,7 +172,7 @@ document.getElementById("demo3").innerHTML = text;
     
 <br />
 <hr />
-<a href="Js2.html">Previous Page</a>  <span class="next"><a href="Js4.html"> Next page</a></span>
+<a href="Js2.php">Previous Page</a>  <span class="next"><a href="Js4.php"> Next page</a></span>
 <br /><br />  
 </div>
 

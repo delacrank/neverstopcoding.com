@@ -140,8 +140,8 @@ public class EndPointDemo {
 
   <hr />
   <br />
- <a href="Java_Web15.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web17.html">Next Page</a></span>
+ <a href="Java_Web15.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web17.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

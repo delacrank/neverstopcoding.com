@@ -81,9 +81,9 @@
         
         <hr />        
         <br />
-        <a href = "Assembly8.html">Previous</a>
+        <a href = "Assembly8.php">Previous</a>
         <span class = "next">
-            <a href = "Assembly10.html">Next Page</a></span>
+            <a href = "Assembly10.php">Next Page</a></span>
         <br /><br />
 
     </div>    

@@ -475,9 +475,9 @@ From here we move on to declaring our functions and then on to our main function
           
         <hr />        
         <br />
-        <a href = "SDL13.html">Previous</a>
+        <a href = "SDL13.php">Previous</a>
         <span class = "next">
-            <a href = "SDL15.html">Next Page</a></span>
+            <a href = "SDL15.php">Next Page</a></span>
         <br /><br />
 
     </div>

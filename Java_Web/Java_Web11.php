@@ -112,8 +112,8 @@ ${5 + 5}</pre>
 <p>In the next section we are going to learn how to create our own custom tag library.</p>
   <hr />
   <br />
- <a href="Java_Web10.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web12.html">Next Page</a></span>
+ <a href="Java_Web10.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web12.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

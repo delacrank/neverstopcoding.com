@@ -106,8 +106,8 @@
         <span class = "nl">The second function uses O(n<sup>2</sup>) notation, so if wanted to reduce the amount of runtime required to return the max value then it would be to our advantage to use the first function.</span></p>
     
 <hr />
-<a href="Algorithms.html">Previous</a>
-<span class = "next"><a href="Algorithms2.html"> Next page</a> </span>
+<a href="Algorithms.php">Previous</a>
+<span class = "next"><a href="Algorithms2.php"> Next page</a> </span>
 
 <br /><br />
 </div>

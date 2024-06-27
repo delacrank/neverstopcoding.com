@@ -89,7 +89,7 @@
         <hr />
         <br />
         <span class = "next">
-        <a href = "GDB1.html">Next Page</a></span>
+        <a href = "GDB1.php">Next Page</a></span>
         <br /><br />
 
     </div>    

@@ -171,9 +171,9 @@ main:
         
          <hr />        
         <br />
-        <a href = "Assembly.html">Previous</a>
+        <a href = "Assembly.php">Previous</a>
         <span class = "next">
-            <a href = "Assembly2.html">Next Page</a></span>
+            <a href = "Assembly2.php">Next Page</a></span>
         <br /><br />
 
     </div>    

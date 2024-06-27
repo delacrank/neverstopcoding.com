@@ -185,9 +185,9 @@ menu a:hover {
 <hr />
 <br /> 
 
-<a href = "Css12.html"> Previous Page</a>
+<a href = "Css12.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css14.html"> Next Page</a></span>
+    <a href = "Css14.php"> Next Page</a></span>
 <br /><br />
 </div>
 

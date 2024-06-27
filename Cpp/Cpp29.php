@@ -121,9 +121,9 @@ src="https://www.youtube.com/embed/ePHBxi73vw0?list=PL1D10C030FDCE7CE0">
         
         <hr />
         <br />
-        <a href="Cpp28.html">Previous</a>
+        <a href="Cpp28.php">Previous</a>
         <span class = "next">
-        <a href = "Cpp30.html">Next Page</a></span>
+        <a href = "Cpp30.php">Next Page</a></span>
         <br /><br />
 
     </div>    

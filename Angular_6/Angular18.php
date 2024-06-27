@@ -143,8 +143,8 @@ export class ChecoutComponent {
 <span class = "nl">Let's take a moment to look and see how we can validate some of our form fields. One way to link all of our form inputs to the single form is by using the '#name' attribute and assigning value 'ngModel' to it.  </span><p>
   
 <hr />
-<a href="Angular17.html">Previous Page</a>
-<span class="next"><a href="Angular19.html"> Next page</a></span>
+<a href="Angular17.php">Previous Page</a>
+<span class="next"><a href="Angular19.php"> Next page</a></span>
 <br /><br />
 </div>
 

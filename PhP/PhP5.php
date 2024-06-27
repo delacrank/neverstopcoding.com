@@ -208,7 +208,7 @@ $90k that's a lot of money! <br />
     
 <hr />
 <br />
-<a href ="PhP4.html">Previous Page</a><span class ="next"><a href = "PhP6.html">Next Page</a></span>
+<a href ="PhP4.php">Previous Page</a><span class ="next"><a href = "PhP6.php">Next Page</a></span>
 <br /><br />
 </div>
 

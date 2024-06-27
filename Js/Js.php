@@ -144,7 +144,7 @@ alert(sum);
 <br />
 <hr />
     
-<a href="Js1.html"> Next page</a>
+<a href="Js1.php"> Next page</a>
 <br /><br />
 </div>
 
