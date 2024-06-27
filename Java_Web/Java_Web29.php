@@ -124,7 +124,7 @@ public class RegistrationForm {
 
   <h2>SecurityConfig class</h2>
 
-  <p>The security class focuses primarily on ensuring that the right user account has priviledges to access certain pages. We can accomplish this task by using some configuration methods. There are quite a few of these if you want to do more research on the topic I would suggest looking <a target="_blank" href="https://docs.spring.io/spring-security/site/docs/4.2.13.RELEASE/apidocs/org/springframework/security/config/annotation/web/builders/HttpSecurity.php">here</a>.
+  <p>The security class focuses primarily on ensuring that the right user account has priviledges to access certain pages. We can accomplish this task by using some configuration methods. There are quite a few of these if you want to do more research on the topic I would suggest looking <a target="_blank" href="https://docs.spring.io/spring-security/site/docs/4.2.13.RELEASE/apidocs/org/springframework/security/config/annotation/web/builders/HttpSecurity.html">here</a>.
 
 <span class = "nl">In this class we will be focusing on using methods from the HttpSecurity class. Many of those methods are highlighted in the link to the documentation above. The ones used in this class are 'authorizedRequests()', 'antMatchers()', 'access()', 'formLogin()', 'loginPage()', 'logout()', 'headers()', 'frameOptions()' and 'sameOrigin()'.</span>
 
