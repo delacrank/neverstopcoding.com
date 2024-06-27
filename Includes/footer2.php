@@ -16,17 +16,17 @@
     
     <div class="links">
         <ul>
-            <li><a href="/Html/Html.html">HTML</a></li>
-            <li><a href="/CSS/Css.html">CSS</a></li>
-            <li><a href="/Js/Js.html">Js</a></li>
+            <li><a href="/Html/Html.php">HTML</a></li>
+            <li><a href="/CSS/Css.php">CSS</a></li>
+            <li><a href="/Js/Js.php">Js</a></li>
         </ul>
     </div>
     
     <div class="links2">
         <ul>
-            <li><a href="/JQuery/JQuery.html">jQuery</a></li>
-            <li><a href="/PhP/PhP.html">PhP</a></li>
-            <li><a href="/C++/C++.html">C++</a></li>
+            <li><a href="/JQuery/JQuery.php">jQuery</a></li>
+            <li><a href="/PhP/PhP.php">PhP</a></li>
+            <li><a href="/C++/C++.php">C++</a></li>
         </ul>
     </div>
 </div>

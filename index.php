@@ -23,7 +23,7 @@
 <body>
 
 <!-- Header -->
-<?php include('Includes//header2.php'); ?>
+<?php include 'Includes//header2.php' ?>
         
 <!-- Navigation -->
 <?php include('Includes//nav.php'); ?>
