@@ -106,8 +106,8 @@ public class ButtonFrame extends JFrame {
 
   <hr />
   <br />
-  <a href = "Java_GUI3.html">Previous Page</a>
-<span class = "next"><a href = "Java_GUI5.html">Next Page</a></span>
+  <a href = "Java_GUI3.php">Previous Page</a>
+<span class = "next"><a href = "Java_GUI5.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

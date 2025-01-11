@@ -115,8 +115,8 @@ public class checkDB {
 											    		        
   <hr />
   <br />
- <a href="Java_Web8.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web10.html">Next Page</a></span>
+ <a href="Java_Web8.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web10.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

@@ -222,7 +222,7 @@ function checkBounds(){
     
 <br />
 <hr />
-<a href="Js7.html">Previous Page</a>  <span class="next"><a href="Js9.html"> Next page</a></span>
+<a href="Js7.php">Previous Page</a>  <span class="next"><a href="Js9.php"> Next page</a></span>
 <br /><br />  
 </div>
 

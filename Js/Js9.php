@@ -247,7 +247,7 @@ sprite.style.left = x + "px";
     
 <br />
 <hr />
-<a href="Js8.html">Previous Page</a>  <span class="next"><a href="Js10.html"> Next page</a></span>
+<a href="Js8.php">Previous Page</a>  <span class="next"><a href="Js10.php"> Next page</a></span>
 <br /><br />  
 </div>
 

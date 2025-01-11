@@ -152,7 +152,7 @@ This allows you to use your CSS syntax to locate every element selected by that 
 </ul>
 
 <hr />
-<a href="Js4.html">Previous Page</a>  <span class="next"><a href="Js6.html"> Next page</a></span>
+<a href="Js4.php">Previous Page</a>  <span class="next"><a href="Js6.php"> Next page</a></span>
 <br /><br />  
 </div>
 

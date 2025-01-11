@@ -268,9 +268,9 @@ body{
 <hr />
 <br />
 
-<a href = "Css11.html"> Previous Page</a>
+<a href = "Css11.php"> Previous Page</a>
 <span class= "next">
-    <a href = "Css13.html"> Next Page</a></span>
+    <a href = "Css13.php"> Next Page</a></span>
 <br /><br />
 </div>
 

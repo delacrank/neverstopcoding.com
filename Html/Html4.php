@@ -152,8 +152,8 @@
 <hr />
 <br />
 
-<a href = "Html3.html"> Previous Page</a>
-<span class ="next"><a href = "Html5.html"> Next Page</a></span>
+<a href = "Html3.php"> Previous Page</a>
+<span class ="next"><a href = "Html5.php"> Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

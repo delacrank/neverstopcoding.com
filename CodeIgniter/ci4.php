@@ -99,8 +99,8 @@
     <p>Thats going to be all for now on views, in our next section we are going to talk about models and this is where things are going to start to get interesting.</p>
 
     <hr /><br />
-    <a href="ci3.html">Previous Page</a>
-    <span class ="next"><a href="ci5.html">Next Page</a></span>
+    <a href="ci3.php">Previous Page</a>
+    <span class ="next"><a href="ci5.php">Next Page</a></span>
     <br /><br />
     </div>
 

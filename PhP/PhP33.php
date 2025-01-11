@@ -65,7 +65,7 @@
     <em>Example:</em>
     <p>Type in a string</p>
     
-    <form method="post" action="php33.html">
+    <form method="post" action="php33.php">
     <input type="text" name="var" />
     <button type="submit"> Submit </button>
     </form>
@@ -136,7 +136,7 @@
     
     <span class ="nl">If you wanted to limit the amount of instances a character set could appear before or after the string, then you could use brackets and input the range of instances like '(a){1,3}ello'. This would mean you would need to use at least 1 instance but not less than 3 instances of the character.</span></p>
     
-     <form method="post" action="php33.html">
+     <form method="post" action="php33.php">
     <input type="text" name="var1" />
     <button type="submit"> Submit </button>
     </form>
@@ -172,7 +172,7 @@
             echo '&lt;p> Second input Try again&lt;/p>';  
     ?></pre>
     <br />
-     <form method="post" action="php33.html">
+     <form method="post" action="php33.php">
     <label>First input</label><input type="text" name="var2" /><br />
     <label>Second input</label><input type="text" name="var3" /><br /><br />
     <button style = "margin-left: 180px" type="submit"> Submit </button>
@@ -208,7 +208,7 @@
             echo '&lt;p>Try again&lt;/p>';  </pre>
     <br />
     
-     <form method="post" action="php33.html">
+     <form method="post" action="php33.php">
     <label>First input</label><input type="text" name="var4" /><br /><br />
     <button style = "margin-left: 180px" type="submit"> Submit </button>
     </form>
@@ -225,8 +225,8 @@
     
 <hr />
 <br />
-<a href = "PhP32.html">Previous Page</a>
-<span class = "next"><a href="PhP34.html">Next Page</a></span>
+<a href = "PhP32.php">Previous Page</a>
+<span class = "next"><a href="PhP34.php">Next Page</a></span>
 <br /><br />
 
 </div>

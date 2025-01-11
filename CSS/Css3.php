@@ -172,9 +172,9 @@ The beauty of this is that we can modify paragraphs, menus, headings, etc. as lo
 <hr />
 <br />
 
-<a href = "Css2.html"> Previous Page</a>
+<a href = "Css2.php"> Previous Page</a>
 <span class ="next">
-    <a href = "Css4.html"> Next Page</a></span>
+    <a href = "Css4.php"> Next Page</a></span>
 <br /><br />
 </div>
 

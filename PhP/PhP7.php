@@ -162,7 +162,7 @@
    
 <hr />
 <br />
-<a href ="PhP6.html">Previous Page</a><span class ="next"><a href = "PhP8.html">Next Page</a></span>
+<a href ="PhP6.php">Previous Page</a><span class ="next"><a href = "PhP8.php">Next Page</a></span>
 <br /><br />
 </div>
 

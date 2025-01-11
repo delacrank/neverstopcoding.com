@@ -135,7 +135,7 @@ echo 'Hello, ' . NAME . '<br />Your number is equal to ' . NUMBER;
 <br />
 <hr />
 <br />
-<a href ="PhP1.html">Previous Page</a><span class ="next"><a href = "PhP3.html">Next Page</a></span>
+<a href ="PhP1.php">Previous Page</a><span class ="next"><a href = "PhP3.php">Next Page</a></span>
 <br /><br />
 
 </div>

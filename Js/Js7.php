@@ -95,7 +95,7 @@ function showChoices() {
 <em>Example:</em>
 
 <!-- Html Markup -->
-<form action = "Js7.html">
+<form action = "Js7.php">
 <fieldset>
 <label>
 Select your favorite color:
@@ -200,7 +200,7 @@ function validate() {
 
 <!-- Example -->
 <em>Example:</em><br />
-<form class = "form" action="Js7.html">
+<form class = "form" action="Js7.php">
 <fieldset>
 <p>
 <label>Name</label>
@@ -260,7 +260,7 @@ if (name == "") {
 
 <br />
 <hr />
-<a href="Js6.html">Previous Page</a>  <span class="next"><a href="Js8.html"> Next page</a></span>
+<a href="Js6.php">Previous Page</a>  <span class="next"><a href="Js8.php"> Next page</a></span>
 <br /><br />  
 </div>
 

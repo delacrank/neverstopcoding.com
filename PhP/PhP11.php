@@ -155,7 +155,7 @@ print "<p> I would just like to say $hello </p>";
     
 <hr />
 <br />
-<a href ="PhP10.html">Previous Page</a><span class ="next"><a href = "PhP12.html">Next Page</a></span>
+<a href ="PhP10.php">Previous Page</a><span class ="next"><a href = "PhP12.php">Next Page</a></span>
 <br /><br />
 
 </div>

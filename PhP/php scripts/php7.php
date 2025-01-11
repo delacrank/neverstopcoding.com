@@ -50,4 +50,4 @@ print "<p>";
 
 <a href="php7.php">Try Again!</a><br /><br />
 
-<a href = "../PhP7.html">Back to Main Page</a>
+<a href = "../PhP7.php">Back to Main Page</a>

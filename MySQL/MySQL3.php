@@ -130,9 +130,9 @@
         
     <hr />        
     <br />
-    <a href = "MySQL2.html"> Previous Page</a>
+    <a href = "MySQL2.php"> Previous Page</a>
     <span class = "next">
-    <a href = "MySQL4.html">Next Page</a></span>
+    <a href = "MySQL4.php">Next Page</a></span>
         <br /><br />
     </div>
 </div><!-- Footer -->

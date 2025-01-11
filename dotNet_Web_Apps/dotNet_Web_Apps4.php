@@ -58,8 +58,8 @@
     
 <hr />
 <br />
-<a href="dotNet_Web_Apps3.html">Previous Page</a>
-<span class = "next"><a href="dotNet_Web_Apps5.html">Next Page</a></span>
+<a href="dotNet_Web_Apps3.php">Previous Page</a>
+<span class = "next"><a href="dotNet_Web_Apps5.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

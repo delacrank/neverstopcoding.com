@@ -121,8 +121,8 @@ public class FilterName implements Filter {
   
     <hr />
   <br />
- <a href="Java_Web14.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web16.html">Next Page</a></span>
+ <a href="Java_Web14.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web16.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

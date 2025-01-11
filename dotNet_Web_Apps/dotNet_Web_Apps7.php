@@ -160,8 +160,8 @@
 
 <hr />
 <br />
-<a href="dotNet_Web_Apps6.html">Previous Page</a>
-<span class = "next"><a href="dotNet_Web_Apps8.html">Next Page</a></span>
+<a href="dotNet_Web_Apps6.php">Previous Page</a>
+<span class = "next"><a href="dotNet_Web_Apps8.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

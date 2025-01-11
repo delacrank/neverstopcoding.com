@@ -88,7 +88,7 @@ print $count;
     
 <hr />
 <br />
-<a href ="PhP11.html">Previous Page</a><span class ="next"><a href = "PhP13.html">Next Page</a></span>
+<a href ="PhP11.php">Previous Page</a><span class ="next"><a href = "PhP13.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

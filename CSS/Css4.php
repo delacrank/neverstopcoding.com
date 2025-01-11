@@ -245,9 +245,9 @@ This border contains 4 colors.
 <hr />
 
 <br />
-<a href = "Css3.html"> Previous Page</a>
+<a href = "Css3.php"> Previous Page</a>
 <span class ="next">
-<a href = "Css5.html"> Next Page</a></span>
+<a href = "Css5.php"> Next Page</a></span>
 <br /><br />
 </div>
 

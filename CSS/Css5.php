@@ -262,9 +262,9 @@ Centering is something we can do with text-align in css.  However, now we that u
 <hr />
 <br />
 
-<a href = "Css4.html"> Previous Page</a>
+<a href = "Css4.php"> Previous Page</a>
 <span class= "next">
-    <a href = "Css6.html"> Next Page</a></span>
+    <a href = "Css6.php"> Next Page</a></span>
 <br /><br />
 </div>
 

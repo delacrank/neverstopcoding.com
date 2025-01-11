@@ -153,8 +153,8 @@ For one we learned about lists.  In order to write an unordered list we need to 
 
 <br />
 <hr /><br />
-<a href = "../index.html">Home</a>
-<span class ="next"><a href = "Html1.html"> Next Page </a></span>
+<a href = "../index.php">Home</a>
+<span class ="next"><a href = "Html1.php"> Next Page </a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

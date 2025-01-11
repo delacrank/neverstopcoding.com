@@ -142,8 +142,8 @@ export class AppModule { }</pre>
 <p>In the next section we are going to finally finish our cartDetail feature. </p>
 
   <hr />
-<a href="Angular14.html">Previous Page</a>
-<span class="next"><a href="Angular16.html"> Next page</a></span>
+<a href="Angular14.php">Previous Page</a>
+<span class="next"><a href="Angular16.php"> Next page</a></span>
 <br /><br />
 </div>
 

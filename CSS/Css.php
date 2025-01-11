@@ -180,9 +180,9 @@ One way we can change the style of a certain word or even entire sentence is by 
 
 <hr />
 <br />
-<a href = "../Html/Html6.html"> Previous Page</a>
+<a href = "../Html/Html6.php"> Previous Page</a>
 <span class = "next">
-<a href = "Css1.html"> Next Page</a></span>
+<a href = "Css1.php"> Next Page</a></span>
 <br /><br />
 </div>
 

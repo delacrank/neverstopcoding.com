@@ -284,9 +284,9 @@ The code for this one is very simple, just add <strong>min-height:</strong> to t
 <hr />
 
 <br />
-<a href = "Css10.html"> Previous Page</a>
+<a href = "Css10.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css12.html"> Next Page</a></span>
+    <a href = "Css12.php"> Next Page</a></span>
 <br /><br />
 </div>
 

@@ -135,8 +135,8 @@
     <span class = "nl">By returning an instance of our new class with its data initialize we can add elements to our linked list by assigning our old list to the value of our new list. In the next section, we will go over functions for traversing this list as well as understanding how to delete elements from our list.</span></p>
     
 <hr />
-<a href="Algorithms1.html">Previous</a>
-<span class = "next"><a href="Algorithms3.html"> Next page</a> </span>
+<a href="Algorithms1.php">Previous</a>
+<span class = "next"><a href="Algorithms3.php"> Next page</a> </span>
 
 <br /><br />
 </div>

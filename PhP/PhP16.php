@@ -70,7 +70,7 @@
 <br />    
 <hr />
 
-<a href ="PhP15.html">Previous Page</a><span class ="next"><a href = "PhP17.html">Next Page</a></span>
+<a href ="PhP15.php">Previous Page</a><span class ="next"><a href = "PhP17.php">Next Page</a></span>
 <br /><br />
 
 </div>

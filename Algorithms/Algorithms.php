@@ -139,7 +139,7 @@
 <br />
 <hr />
     
-<a href="Algorithms1.html"> Next page</a>
+<a href="Algorithms1.php"> Next page</a>
 <br /><br />
 </div>
 

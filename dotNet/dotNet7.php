@@ -233,7 +233,7 @@ Runat="Server">
 
 <hr />
 <br />
-<a href = "dotNet6.html">Previous Page</a>
+<a href = "dotNet6.php">Previous Page</a>
 <br /><br />
 </div>
 </div><!-- Footer -->

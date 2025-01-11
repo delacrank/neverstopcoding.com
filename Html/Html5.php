@@ -43,7 +43,7 @@
 <em>Code:</em>
 <!-- Code -->
 <pre class = "code">
-&#60;form action = "self.html">
+&#60;form action = "self.php">
     &#60;p>
         &#60;label> Select a direction &#60;/label>
         &#60;select id = "selDirection">
@@ -60,7 +60,7 @@
 <!-- Example -->
 
 <h4>Drop down List</h4>
-<form action = "Html5.html">
+<form action = "Html5.php">
  <p>
   <label> Select a direction </label>
   <select id = "selDirection">
@@ -191,8 +191,8 @@
 <hr />
 <br />
 
-<a href = "Html4.html"> Previous Page</a><span class ="next">
-<a href = "Html6.html"> Next Page</a></span>
+<a href = "Html4.php"> Previous Page</a><span class ="next">
+<a href = "Html6.php"> Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

@@ -148,8 +148,8 @@
     
 <hr />
 <br />
-<a href="Web_Apps.html">Previous Page</a>
-<span class = "next"><a href = "Web_Apps2.html">Next Page</a></span>
+<a href="Web_Apps.php">Previous Page</a>
+<span class = "next"><a href = "Web_Apps2.php">Next Page</a></span>
 <br /><br />
 
 </div>

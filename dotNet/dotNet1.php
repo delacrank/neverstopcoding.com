@@ -283,7 +283,7 @@ enum Days {Sat, Sun, Mon, Tue, Wed, Thu, Fri};</pre>
 
 <hr />
 <br />
-<a href="dotNet.html">Previous</a><span class="next"><a href="dotNet2.html">Next Page</a></span>
+<a href="dotNet.php">Previous</a><span class="next"><a href="dotNet2.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

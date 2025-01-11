@@ -106,7 +106,7 @@ GO</pre>
     
 <br />
 <hr /><br />
-<a href = "T-Sql.html"> Previous Page </a> 
+<a href = "T-Sql.php"> Previous Page </a> 
 <br /><br />
 </div>
 </div><!-- Footer -->

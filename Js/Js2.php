@@ -135,7 +135,7 @@ document.write(add(1,2));</pre>
 <hr />
     
     
-<a href="Js1.html">Previous Page</a>  <span class="next"><a href="Js3.html"> Next page</a></span>
+<a href="Js1.php">Previous Page</a>  <span class="next"><a href="Js3.php"> Next page</a></span>
 <br /><br />  
 </div>
 

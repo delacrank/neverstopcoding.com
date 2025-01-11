@@ -113,8 +113,8 @@ export class ModelModule { }</pre>
 <p>In the next section we are going to wrap up the checkout section by showing the template for our checkout form.</p>
 
     <hr />
-<a href="Angular16.html">Previous Page</a>
-<span class="next"><a href="Angular18.html"> Next page</a></span>
+<a href="Angular16.php">Previous Page</a>
+<span class="next"><a href="Angular18.php"> Next page</a></span>
 <br /><br />
 </div>
 

@@ -109,7 +109,7 @@
     <br />
     <hr />
     
-<a href="Java1.html"> Next page</a>
+<a href="Java1.php"> Next page</a>
 <br /><br />
 </div>
 

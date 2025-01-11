@@ -147,7 +147,7 @@
         
         <hr />
         <br />
-        <a href = "Cpp_Std_Lib1.html">Next Page</a>
+        <a href = "Cpp_Std_Lib1.php">Next Page</a>
         <br /><br />
 
     </div>    

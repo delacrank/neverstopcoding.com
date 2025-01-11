@@ -209,9 +209,9 @@ Another regular paragraph. Another regular paragraph.Another regular paragraph.A
 
 <hr />
 <br />
-<a href = "Css7.html"> Previous Page</a>
+<a href = "Css7.php"> Previous Page</a>
 <span class = "next">
-<a href = "Css9.html"> Next Page</a></span>
+<a href = "Css9.php"> Next Page</a></span>
 <br /><br />
 </div>
 

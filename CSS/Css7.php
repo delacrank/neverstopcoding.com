@@ -107,9 +107,9 @@ p {
 
 <hr />
 <br />
-<a href = "Css6.html"> Previous Page</a>
+<a href = "Css6.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css8.html"> Next Page</a></span>
+    <a href = "Css8.php"> Next Page</a></span>
 <br /><br />
 </div>
 

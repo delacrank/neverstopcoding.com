@@ -215,8 +215,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
   
       <hr />
 <br />
-<a href="Java_Web28.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web30.html">Next Page</a></span>
+<a href="Java_Web28.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web30.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

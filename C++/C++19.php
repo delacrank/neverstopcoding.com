@@ -128,9 +128,9 @@ string SafeCracker (int SafeID)
     
 <hr />
 <br />
-<a href = "C++18.html">Previous page</a>
+<a href = "C++18.php">Previous page</a>
 <span class ="next">
-<a href = "C++20.html">Next Page </a></span>
+<a href = "C++20.php">Next Page </a></span>
 <br /><br />
 
 </div>

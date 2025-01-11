@@ -136,8 +136,8 @@ export class TodoItem {
 <p>In the next section we will go over how to create a template for our model and the component which connects our model to the template.</p>
 
     <hr />
-<a href="Angular1.html">Previous Page</a>
-<span class="next"><a href="Angular3.html"> Next page</a></span>
+<a href="Angular1.php">Previous Page</a>
+<span class="next"><a href="Angular3.php"> Next page</a></span>
 <br /><br />
 </div>
 

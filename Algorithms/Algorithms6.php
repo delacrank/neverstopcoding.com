@@ -154,8 +154,8 @@ for(int i = 0; i < dist.length; i++)
 
 <hr />
 <br />
-<a href="Algorithms5.html">Previous</a>
-<span class = "next"><a href="Algorithms7.html">Next</a>
+<a href="Algorithms5.php">Previous</a>
+<span class = "next"><a href="Algorithms7.php">Next</a>
     
 <br /><br />
 </div>

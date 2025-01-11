@@ -144,8 +144,8 @@ export class StoreComponent {
 <span class = "nl">In the next section we will look into how to create a custom directive. This will help in making the pageNumbers() function less complicated.</span></p>
 
 <hr />
-<a href="Angular10.html">Previous Page</a>
-<span class="next"><a href="Angular12.html"> Next page</a></span>
+<a href="Angular10.php">Previous Page</a>
+<span class="next"><a href="Angular12.php"> Next page</a></span>
 <br /><br />
 </div>
 

@@ -193,7 +193,7 @@ foreach (var obj in query)
 
 <hr />
 <br />
-<a href="dotNet4.html">Previous</a><span class="next"><a href="dotNet6.html">Next Page</a></span>
+<a href="dotNet4.php">Previous</a><span class="next"><a href="dotNet6.php">Next Page</a></span>
 <br /><br />
 </div>
 

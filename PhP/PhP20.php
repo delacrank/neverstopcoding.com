@@ -77,7 +77,7 @@
             } 
         }   
         
-    echo '&lt;a href="PHP20.html">Back to main page</a>';
+    echo '&lt;a href="PHP20.php">Back to main page</a>';
     &#63;></pre><br />
         
     <em>Example:</em>        
@@ -179,9 +179,9 @@ echo '<p> Please enter a valid integer for number one and number two.</p>';
           
     <hr />        
     <br />
-    <a href = "PhP19.html"> Previous Page</a>
+    <a href = "PhP19.php"> Previous Page</a>
     <span class = "next">
-    <a href = "PhP21.html">Next Page</a></span>
+    <a href = "PhP21.php">Next Page</a></span>
     <br />
     <br />
 

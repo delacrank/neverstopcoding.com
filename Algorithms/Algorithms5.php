@@ -168,8 +168,8 @@ int main()
     
     <hr />
 <br />
-<a href="Algorithms4.html">Previous</a>
-<span class = "next"><a href="Algorithms6.html">Next</a>
+<a href="Algorithms4.php">Previous</a>
+<span class = "next"><a href="Algorithms6.php">Next</a>
   
 <br /><br />
 </div>

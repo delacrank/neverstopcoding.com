@@ -74,8 +74,8 @@ export class RestDatasource {
     
   
 <hr />
-<a href="Angular18.html">Previous Page</a>
-<span class="next"><a href="Angular20.html"> Next page</a></span>
+<a href="Angular18.php">Previous Page</a>
+<span class="next"><a href="Angular20.php"> Next page</a></span>
 <br /><br />
 </div>
 

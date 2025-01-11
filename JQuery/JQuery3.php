@@ -258,8 +258,8 @@ $('#input1').blur( function() {
 <br />
 <hr />
     
-<a href="JQuery2.html">Previous Page</a>
-<span class = "next"><a href="JQuery4.html">Next Page</a></span>
+<a href="JQuery2.php">Previous Page</a>
+<span class = "next"><a href="JQuery4.php">Next Page</a></span>
 <br /><br />
 </div>
 

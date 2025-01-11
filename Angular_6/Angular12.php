@@ -98,8 +98,8 @@ export class StoreModule { }</pre>
 <p>This pretty much sums up creating and using a directive in the next section we are going to create a checkout system for our angular application.</p>
 
 <hr />
-<a href="Angular11.html">Previous Page</a>
-<span class="next"><a href="Angular13.html"> Next page</a></span>
+<a href="Angular11.php">Previous Page</a>
+<span class="next"><a href="Angular13.php"> Next page</a></span>
 <br /><br />
 </div>
 

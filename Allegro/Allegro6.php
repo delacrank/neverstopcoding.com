@@ -41,7 +41,7 @@
         
         <hr />        
         <br />
-        <a href = "Allegro5.html">Previous Page</a>
+        <a href = "Allegro5.php">Previous Page</a>
         <br /><br />
 
     </div>

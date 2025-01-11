@@ -171,8 +171,8 @@ public class Privilege {
 
 <hr />
 <br />
-<a href="Java_Web37.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web39.html">Next Page</a></span>
+<a href="Java_Web37.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web39.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

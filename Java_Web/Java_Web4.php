@@ -67,8 +67,8 @@
 
   <hr />
   <br />
- <a href="Java_Web3.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web5.html">Next Page</a></span>
+ <a href="Java_Web3.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web5.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

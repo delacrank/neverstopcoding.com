@@ -98,9 +98,9 @@
         <hr />
         <br />
     
-<a href = "C3.html">Previous page</a>
+<a href = "C3.php">Previous page</a>
 <span class="next">
-<a href = "C5.html">Next Page </a></span>
+<a href = "C5.php">Next Page </a></span>
 <br /><br />
 
 </div>

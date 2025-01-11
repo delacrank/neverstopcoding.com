@@ -78,8 +78,8 @@ ng serve --port 3000 --open</pre>
 
 
     <hr />
-<a href="Angular1.html">Previous Page</a>
-<span class="next"><a href="Angular1.html"> Next page</a></span>
+<a href="Angular1.php">Previous Page</a>
+<span class="next"><a href="Angular1.php"> Next page</a></span>
 <br /><br />
 </div>
 

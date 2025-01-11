@@ -81,9 +81,9 @@
     
 <hr />
 <br />
-<a href = "../C++/C++30.html">Previous Page</a>
+<a href = "../C++/C++30.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp1.html">Next Page</a></span>
+    <a href = "Csharp1.php">Next Page</a></span>
 <br /><br />
 </div>
 

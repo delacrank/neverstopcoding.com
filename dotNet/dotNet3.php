@@ -231,7 +231,7 @@ namespace ConsoleApplication3
        
 <hr />
 <br />
-<a href="dotNet2.html">Previous</a><span class="next"><a href="dotNet4.html">Next Page</a></span>
+<a href="dotNet2.php">Previous</a><span class="next"><a href="dotNet4.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

@@ -182,9 +182,9 @@ echo '<h1>Thank you!</h1>
 <p> You are now a registered user</p>
     <hr />        
     <br />
-    <a href = "../PhP/PhP20.html"> Previous Page</a>
+    <a href = "../PhP/PhP20.php"> Previous Page</a>
     <span class = "next">
-    <a href = "../PhP/PhP22.html">Next Page</a></span>
+    <a href = "../PhP/PhP22.php">Next Page</a></span>
     <br /><br />';
 
 } else {
@@ -240,9 +240,9 @@ echo '</p><p>Please try again.</p><p><br /></p>';
         
         <hr />        
         <br />
-        <a href = "PhP20.html"> Previous Page</a>
+        <a href = "PhP20.php"> Previous Page</a>
         <span class = "next">
-        <a href = "PhP22.html">Next Page</a></span>
+        <a href = "PhP22.php">Next Page</a></span>
         <br />
         <br />
 

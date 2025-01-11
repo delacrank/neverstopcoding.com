@@ -169,9 +169,9 @@
         
         <hr />        
         <br />
-        <a href = "Css18.html"> Previous Page</a>
+        <a href = "Css18.php"> Previous Page</a>
         <span class = "next">
-        <a href = "Css20.html">Next Page</a></span>
+        <a href = "Css20.php">Next Page</a></span>
         <br />
         <br />
 

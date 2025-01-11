@@ -117,9 +117,9 @@
         
         <hr />        
         <br />
-        <a href = "../C++/C++32.html"> Previous Page</a>
+        <a href = "../C++/C++32.php"> Previous Page</a>
         <span class = "next">
-            <a href = "OpenGL1.html">Next Page</a></span>
+            <a href = "OpenGL1.php">Next Page</a></span>
         <br /><br />
 
     </div>

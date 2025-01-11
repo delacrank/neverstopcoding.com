@@ -390,7 +390,7 @@
         
         <hr />        
         <br />
-        <a href = "SDL27.html">Previous</a>
+        <a href = "SDL27.php">Previous</a>
         <br /><br />
 
     </div>    

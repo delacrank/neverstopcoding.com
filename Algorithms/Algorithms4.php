@@ -166,8 +166,8 @@
     
 <hr />
 <br />
-<a href="Algorithms3.html">Previous</a>
-<span class = "next"><a href='Algorithms5.html'>Next</a></span>
+<a href="Algorithms3.php">Previous</a>
+<span class = "next"><a href='Algorithms5.php'>Next</a></span>
     
 <br /><br />
 </div>

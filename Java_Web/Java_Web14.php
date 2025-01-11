@@ -79,8 +79,8 @@ version="2.0">
  
   <hr />
   <br />
- <a href="Java_Web13.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web15.html">Next Page</a></span>
+ <a href="Java_Web13.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web15.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

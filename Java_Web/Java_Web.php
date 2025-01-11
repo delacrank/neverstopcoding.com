@@ -123,7 +123,7 @@ jar -cvf name.war directory-name</pre>
 
 <hr />
  <br />
-<a href = "Java_Web2.html">Next Page</a>
+<a href = "Java_Web2.php">Next Page</a>
 <br /><br />
 </div>
 </div><!-- Footer -->

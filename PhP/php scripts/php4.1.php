@@ -7,5 +7,5 @@
             echo 'Please enter a username.<br /><br />';
         }    
         
-        print '<a href="../PhP4.html">Click here to go Back</a>';
+        print '<a href="../PhP4.php">Click here to go Back</a>';
     ?>

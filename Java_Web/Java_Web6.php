@@ -133,8 +133,8 @@ public class Ticket
 
   <hr />
   <br />
- <a href="Java_Web5.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web7.html">Next Page</a></span>
+ <a href="Java_Web5.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web7.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

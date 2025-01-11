@@ -155,8 +155,8 @@ class DrawComponent extends JComponent {
 
   <hr />
   <br />
-  <a href = "Java_GUI.html">Previous Page</a>
-<span class = "next"><a href = "Java_GUI2.html">Next Page</a></span>
+  <a href = "Java_GUI.php">Previous Page</a>
+<span class = "next"><a href = "Java_GUI2.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

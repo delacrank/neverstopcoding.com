@@ -86,7 +86,7 @@
     
 <hr />
 <br />
-<a href="Seo1.html">Next Page</a>
+<a href="Seo1.php">Next Page</a>
 <br /><br />    
     
 </div>

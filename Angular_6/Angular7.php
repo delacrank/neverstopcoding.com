@@ -87,8 +87,8 @@ platformBrowserDynamic().bootstrapModule(AppModule)
 
     
 <hr />
-<a href="Angular6.html">Previous Page</a>
-<span class="next"><a href="Angular8.html"> Next page</a></span>
+<a href="Angular6.php">Previous Page</a>
+<span class="next"><a href="Angular8.php"> Next page</a></span>
 <br /><br />
 </div>
 

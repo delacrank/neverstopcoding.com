@@ -100,9 +100,9 @@
         
         <hr />
         <br />
-        <a href="Cpp11.html">Previous</a>
+        <a href="Cpp11.php">Previous</a>
         <span class = "next">
-        <a href = "Cpp13.html">Next Page</a></span>
+        <a href = "Cpp13.php">Next Page</a></span>
         <br /><br />
 
     </div>    

@@ -142,7 +142,7 @@ print "false!";
     
     &#60;p>&#60;a href ="ifConditional.php">Please Try Again!&#60;/a>&#60;/p>
     
-    &#60;p>&#60;a href ="PhP6.html"> Back to main page &#60;/a>&#60;/p></pre><br />
+    &#60;p>&#60;a href ="PhP6.php"> Back to main page &#60;/a>&#60;/p></pre><br />
     
 <em>Example:</em><br /><br />
 <!-- Example -->
@@ -152,7 +152,7 @@ print "false!";
     
 <hr />
 <br />
-<a href ="PhP5.html">Previous Page</a><span class ="next"><a href = "PhP7.html">Next Page</a></span>
+<a href ="PhP5.php">Previous Page</a><span class ="next"><a href = "PhP7.php">Next Page</a></span>
 <br /><br />
 </div>
 

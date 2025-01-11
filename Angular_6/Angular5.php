@@ -74,8 +74,8 @@ export class AppComponent {
   
 
    <hr />
-<a href="Angular4.html">Previous Page</a>
-<span class="next"><a href="Angular6.html"> Next page</a></span>
+<a href="Angular4.php">Previous Page</a>
+<span class="next"><a href="Angular6.php"> Next page</a></span>
 <br /><br />
 </div>
 

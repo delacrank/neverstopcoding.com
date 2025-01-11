@@ -171,7 +171,7 @@ document.write("My market holds: " + market.total() +
     
 <br />
 <hr />
-<a href="Js3.html">Previous Page</a>  <span class="next"><a href="Js5.html"> Next page</a></span>
+<a href="Js3.php">Previous Page</a>  <span class="next"><a href="Js5.php"> Next page</a></span>
 <br /><br />  
 </div>
 

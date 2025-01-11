@@ -221,8 +221,8 @@ public class CalculatorPanel extends JPanel {
       
     <hr />
   <br />
-  <a href = "Java_GUI6.html">Previous Page</a>
-<span class = "next"><a href = "Java_GUI8.html">Next Page</a></span>
+  <a href = "Java_GUI6.php">Previous Page</a>
+<span class = "next"><a href = "Java_GUI8.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

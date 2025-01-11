@@ -35,4 +35,4 @@ print "<p>Congratulations you got the job!</p>";
 } // end if
 ?>
     
-<a href="../PhP5.html">Back to main page</a>    
+<a href="../PhP5.php">Back to main page</a>    

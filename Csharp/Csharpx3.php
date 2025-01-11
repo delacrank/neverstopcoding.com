@@ -107,9 +107,9 @@ Notice how we are accessing classes via namespaces.  MessageBox is a class in th
     
 <hr />
 <br />
-<a href = "Csharp2.html">Previous Page</a>
+<a href = "Csharp2.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp4.html">Next Page</a></span>
+    <a href = "Csharp4.php">Next Page</a></span>
 <br /><br />
 </div>
 

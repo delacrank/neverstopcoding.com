@@ -107,9 +107,9 @@
         
         <hr />        
         <br />
-        <a href = "PhP23.html"> Previous Page</a>
+        <a href = "PhP23.php"> Previous Page</a>
         <span class = "next">
-        <a href = "PhP25.html">Next Page</a></span>
+        <a href = "PhP25.php">Next Page</a></span>
         <br />
         <br />
 

@@ -147,8 +147,8 @@
 
   <hr />
 <br />
-<a href="Java_Web33.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web35.html">Next Page</a></span>
+<a href="Java_Web33.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web35.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

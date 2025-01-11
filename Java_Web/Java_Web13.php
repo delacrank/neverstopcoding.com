@@ -105,8 +105,8 @@ public class AddTag extends SimpleTagSupport {
 
   <hr />
   <br />
- <a href="Java_Web12.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web14.html">Next Page</a></span>
+ <a href="Java_Web12.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web14.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

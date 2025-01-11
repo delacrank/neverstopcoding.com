@@ -31,9 +31,9 @@
 
 <hr />
 <br />
-<a href = "Csharp4.html">Previous Page</a>
+<a href = "Csharp4.php">Previous Page</a>
 <span class ="next">
-    <a href = "Csharp6.html">Next Page</a></span>
+    <a href = "Csharp6.php">Next Page</a></span>
 <br /><br />
 </div>
 

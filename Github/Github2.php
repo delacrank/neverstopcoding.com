@@ -86,8 +86,8 @@
       <hr />
       <br />
 
-    <a href ="Github.html">Previous Page</a>
-    <span class = "next"><a href="Github2.html">Next Page</a>	
+    <a href ="Github.php">Previous Page</a>
+    <span class = "next"><a href="Github2.php">Next Page</a>	
         
         <br /><br />
 

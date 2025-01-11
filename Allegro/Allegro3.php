@@ -83,8 +83,8 @@
         
      <hr />        
         <br />
-        <a href = "Allegro2.html">Previous Page</a>
-        <span class = "next"><a href="Allegro4.html">Next Page</a></span>
+        <a href = "Allegro2.php">Previous Page</a>
+        <span class = "next"><a href="Allegro4.php">Next Page</a></span>
         <br /><br />
 
     </div>

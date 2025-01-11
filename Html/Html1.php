@@ -129,8 +129,8 @@ The formula for water is H<sub>2</sub>O.</p>
 <hr /> 
 <br />
     
-<a href = "Html.html">Previous page</a>
-<span class ="next"><a href = "Html2.html">Next Page</a></span>
+<a href = "Html.php">Previous page</a>
+<span class ="next"><a href = "Html2.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

@@ -226,9 +226,9 @@ li {
   
 <hr />
 <br />
-<a href = "Css5.html"> Previous Page</a>
+<a href = "Css5.php"> Previous Page</a>
 <span class = "next">
-    <a href = "Css7.html"> Next Page</a></span>
+    <a href = "Css7.php"> Next Page</a></span>
 <br /><br />
 </div>
 

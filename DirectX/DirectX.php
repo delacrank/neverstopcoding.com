@@ -78,7 +78,7 @@
         <br />
 
         <span class = "next">
-            <a href = "DirectX1.html">Next Page</a></span>
+            <a href = "DirectX1.php">Next Page</a></span>
         <br /><br />
 
     </div>    

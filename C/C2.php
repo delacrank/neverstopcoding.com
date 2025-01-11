@@ -121,9 +121,9 @@
     <hr />
     <br />
     
-<a href = "C1.html">Previous page</a>
+<a href = "C1.php">Previous page</a>
 <span class="next">
-<a href = "C3.html">Next Page </a></span>
+<a href = "C3.php">Next Page </a></span>
 <br /><br />
 
 </div>

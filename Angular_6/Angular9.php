@@ -104,8 +104,8 @@ export class StoreModule { }</pre>
 <p>In the next section we will be adding category selection and product pagination.</p>
 
 <hr />
-<a href="Angular8.html">Previous Page</a>
-<span class="next"><a href="Angular10.html"> Next page</a></span>
+<a href="Angular8.php">Previous Page</a>
+<span class="next"><a href="Angular10.php"> Next page</a></span>
 <br /><br />
 </div>
 

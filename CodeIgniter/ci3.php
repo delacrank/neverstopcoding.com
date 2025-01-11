@@ -94,8 +94,8 @@
     ?></pre>
 
     <hr /><br />
-    <a href="ci2.html">Previous Page</a>
-    <span class ="next"><a href="ci4.html">Next Page</a></span>
+    <a href="ci2.php">Previous Page</a>
+    <span class ="next"><a href="ci4.php">Next Page</a></span>
     <br /><br />
     </div>
 

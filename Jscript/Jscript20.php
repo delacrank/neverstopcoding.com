@@ -211,8 +211,8 @@
     
 <hr />
 <br />
-<a href="Jscript19.html">Previous</a>
-<span class = "next"><a href="Jscript21.html">Next Page</a></span>
+<a href="Jscript19.php">Previous</a>
+<span class = "next"><a href="Jscript21.php">Next Page</a></span>
 <br /><br />    
     
 </div>

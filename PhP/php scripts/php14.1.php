@@ -16,4 +16,4 @@ fclose($fp);
 
 ?>
 
-<a href="../PhP14.html">Back to Main Page</a>
+<a href="../PhP14.php">Back to Main Page</a>

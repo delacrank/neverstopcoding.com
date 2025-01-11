@@ -33,7 +33,7 @@
     
 <hr />
 <br />
-<a href = "Web_Apps10.html">Previous Page</a>
+<a href = "Web_Apps10.php">Previous Page</a>
 <br /><br />
 
 </div>

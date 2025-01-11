@@ -232,7 +232,7 @@ print "We assigned these variables equal to these values using our list function
     <p>Here we were able to print out the value of $ok[0], $ok[1], and $ok[3] as variables named $var, $var2 and $var3.</p>
 <hr />
 <br />
-<a href ="PhP12.html">Previous Page</a><span class ="next"><a href = "PhP14.html">Next Page</a></span>
+<a href ="PhP12.php">Previous Page</a><span class ="next"><a href = "PhP14.php">Next Page</a></span>
 <br /><br />
 
 </div>

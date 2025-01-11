@@ -113,8 +113,8 @@
     
 <hr />
 <br />
-<a href="Seo.html">Previous</a>
-<span class = "next"><a href="Seo2.html">Next Page</a></span>
+<a href="Seo.php">Previous</a>
+<span class = "next"><a href="Seo2.php">Next Page</a></span>
 <br /><br />    
     
 </div>

@@ -118,7 +118,7 @@
     
 <hr />
 <br />
-<a href = "Web_Apps1.html">Next Page</a>
+<a href = "Web_Apps1.php">Next Page</a>
 <br /><br />
 
 </div>

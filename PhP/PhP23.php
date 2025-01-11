@@ -191,9 +191,9 @@ mysqli_close($dbc);
 
         <hr />        
         <br />
-        <a href = "PhP22.html"> Previous Page</a>
+        <a href = "PhP22.php"> Previous Page</a>
         <span class = "next">
-        <a href = "PhP24.html">Next Page</a></span>
+        <a href = "PhP24.php">Next Page</a></span>
         <br />
         <br />
 

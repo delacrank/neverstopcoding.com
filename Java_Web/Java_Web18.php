@@ -109,7 +109,7 @@
   &lt;/loggers>
 &lt;/configuration></pre>
 
-<p>A basic configuration can be found <a target="_blank" href="https://logging.apache.org/log4j/2.x/manual/configuration.html">here</a>. This can also be called an appender file as it will continue to append new logs to your existing file. Let's look at some source files to see how we store logs.</p>
+<p>A basic configuration can be found <a target="_blank" href="https://logging.apache.org/log4j/2.x/manual/configuration.php">here</a>. This can also be called an appender file as it will continue to append new logs to your existing file. Let's look at some source files to see how we store logs.</p>
 
 <hr />
 
@@ -273,8 +273,8 @@ public class LoggingFilter implements Filter
 
   <hr />
   <br />
- <a href="Java_Web17.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web19.html">Next Page</a></span>
+ <a href="Java_Web17.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web19.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

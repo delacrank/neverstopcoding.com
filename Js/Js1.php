@@ -162,7 +162,7 @@ document.write("Add a line break &lt;br /> Now we can continue"); </pre>
 <br />
 <hr />
     
-<a href="Js.html">Previous Page</a>  <span class="next"><a href="Js2.html"> Next page</a></span>
+<a href="Js.php">Previous Page</a>  <span class="next"><a href="Js2.php"> Next page</a></span>
 <br /><br />  
 </div>
 

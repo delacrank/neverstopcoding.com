@@ -162,9 +162,9 @@
         
         <hr />
         <br />
-        <a href="Cpp15.html">Previous</a>
+        <a href="Cpp15.php">Previous</a>
         <span class = "next">
-        <a href = "Cpp17.html">Next Page</a></span>
+        <a href = "Cpp17.php">Next Page</a></span>
         <br /><br />
 
     </div>    

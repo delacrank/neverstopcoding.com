@@ -145,8 +145,8 @@
     
 <hr />
 <br />
-<a href="Jscript.html">Previous</a>
-<span class = "next"><a href="Jscript2.html">Next Page</a></span>
+<a href="Jscript.php">Previous</a>
+<span class = "next"><a href="Jscript2.php">Next Page</a></span>
 <br /><br />    
     
 </div>

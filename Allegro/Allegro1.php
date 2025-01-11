@@ -225,8 +225,8 @@
     
      <hr />        
         <br />
-        <a href = "Allegro.html">Previous Page</a>
-        <span class = "next"><a href="Allegro2.html">Next Page</a></span>
+        <a href = "Allegro.php">Previous Page</a>
+        <span class = "next"><a href="Allegro2.php">Next Page</a></span>
         <br /><br />
 
     </div>

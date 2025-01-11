@@ -150,8 +150,8 @@ javac -cp ".;C:\path\to\lib\websocket-api.jar;.;C:\path\to\lib\javax.json-api-1.
 
   <hr />
   <br />
- <a href="Java_Web16.html">Previous Page</a>
-<span class = "next"><a href = "Java_Web18.html">Next Page</a></span>
+ <a href="Java_Web16.php">Previous Page</a>
+<span class = "next"><a href = "Java_Web18.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

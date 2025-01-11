@@ -93,7 +93,7 @@
     <hr />
     <br />
         
-    <a href ="Github1.html">Next Page</a>
+    <a href ="Github1.php">Next Page</a>
         
     <br /><br />
 

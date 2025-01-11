@@ -243,7 +243,7 @@
         
         <hr />        
         <br />
-        <a href = "Css31.html"> Previous Page</a>
+        <a href = "Css31.php"> Previous Page</a>
    <br /> <br />
     </div>
 </div><!-- Footer -->

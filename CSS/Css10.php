@@ -196,9 +196,9 @@ The colors also respond to the borders i have set.
 
 <hr />
 <br />
-<a href = "Css9.html">Previous Page</a>
+<a href = "Css9.php">Previous Page</a>
 <span class = "next">
-    <a href = "Css11.html">Next Page</a></span>
+    <a href = "Css11.php">Next Page</a></span>
 <br /><br />
 </div>
 

@@ -45,14 +45,14 @@
 <em>Code:</em>
 <!-- Code -->
 <pre class = "code">
-&#60;a href = "Test.html">
+&#60;a href = "Test.php">
 Link to Our first page
 &#60;/a> &#60;a href = "http://www.google.com" > Google &#60;/a></pre>
 <br />
 
 <em>Example:</em>
 <br /><br />
-<a href = "Html.html"> Link to Our first page </a>
+<a href = "Html.php"> Link to Our first page </a>
 <br /><br />
 <a href = "http://www.google.com"> Google </a>
 
@@ -184,8 +184,8 @@ Link to Our first page
 <hr />
 <br />
 
-<a href = "Html1.html">Previous Page</a>
-<span class ="next"><a href = "Html3.html">Next Page</a></span>
+<a href = "Html1.php">Previous Page</a>
+<span class ="next"><a href = "Html3.php">Next Page</a></span>
 <br /><br />
 </div>
 </div><!-- Footer -->

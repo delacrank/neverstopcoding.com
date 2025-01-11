@@ -159,8 +159,8 @@ npm run json
 <p>In the browser you should be able to see the values for the product you pulled up, the command prompt should be able to display the method.</p>
   
 <hr />
-<a href="Angular5.html">Previous Page</a>
-<span class="next"><a href="Angular7.html"> Next page</a></span>
+<a href="Angular5.php">Previous Page</a>
+<span class="next"><a href="Angular7.php"> Next page</a></span>
 <br /><br />
 </div>
 
