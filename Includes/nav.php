@@ -13,6 +13,7 @@
         <li><a href="Typescript/Typescript.php">Typescript</a>
         <li><a href="Ajax/Ajax.php">Ajax</a></li>
         <li><a href="PhP/PhP.php">PhP</a></li>
+        <li><a href="Python/Python.php">Python</a></li>
         <li><a href="CodeIgniter/ci.php">Code Igniter</a></li>
 	<li><a href="Java_Web/Java_Web.php">Java_Web</a></li>
         <li><a href="Web%20Applications/Web_Apps.php">Web Applications</a></li>

@@ -60,7 +60,19 @@
     
 	<hr />
 
-	  <h2>2021-09-02 01:20 Update:</h2>
+   <h2>2024-12-24 16:44 Update:</h2>
+   
+    <p>It's been 3 years and 3 months since I last updated this website. Since then, I finally aquired a position at one of the big banks jpmc or Chase bank. Unfortunately I wasn't able to secure the position for more than a month. There was this one obnoxious female co worker that gave me a really hard time, and basically this led to her complaining to management and me getting fired.
+
+    <span class="nl">For the most part I don't really care, the experience allowed me to move down to Florida and get a raise and I even met someone and dated for about 7 months before breaking it off. But recently, we are trying to work it out. This was in part due to be asking the initial company to take me back and they even gave me a raise.</span>
+   
+    <span class = "nl">During these last three years, I have grown so much as a developer and have learned so much about human connection and learning soft skills. My developer skills also improved a lot, and I have learned how to be a better developer and handle more responsibilities.  Being a professional developer is extremely challenging and companies seem to have a way to always ask you to take on more tasks the more you perform.</span>
+   
+    <span class = "nl">One thing that I am working on is learning networking skills. I recently bought a router, a switch and a a few rasberry pi's in order to set up a home lap. I am also going to go back into focusing on doing some game development as well.</span></p>
+   
+    <hr />
+	
+   <h2>2021-09-02 01:20 Update:</h2>
 
     <p>Wow, I can't believe how long its been since I've bothered to update this website. I guess over a year has passed. A lot of things have changed and a lot of things have actually remained the same. I am not sure if I have become a better programmer since then, its certainly a possibility.
 
