@@ -4,7 +4,6 @@
 <li><a href="../index.php">Home</a></li>
 <li onmouseover='' ><a>Web Dev</a>
     <ul>
-<<<<<<< HEAD
         <li><a href="Html/Html.php">Html</a></li>
         <li><a href="CSS/Css.php">CSS</a></li>
         <li><a href="Js/Js.php">Javascript</a></li>
@@ -16,26 +15,10 @@
         <li><a href="PhP/PhP.php">PhP</a></li>
         <li><a href="Python/Python.php">Python</a></li>
         <li><a href="CodeIgniter/ci.php">Code Igniter</a></li>
-	<li><a href="Java_Web/Java_Web.php">Java_Web</a></li>
+	    <li><a href="Java_Web/Java_Web.php">Java_Web</a></li>
         <li><a href="Web%20Applications/Web_Apps.php">Web Applications</a></li>
         <li><a href="MySQL/MySQL.php">MySQL</a></li>
         <li><a href="SEO/Seo.php">SEO</a></li>
-=======
-        <li><a href="../Html/Html.php">Html</a></li>
-        <li><a href="../CSS/Css.php">CSS</a></li>
-        <li><a href="../Js/Js.php">Javascript</a></li>
-        <li><a href="../Jscript/Jscript.php">Js EMCA 6</a></li>
-        <li><a href="../JQuery/JQuery.php">JQuery</a></li>
-        <li><a href="../Angular_6/Angular.php">Angular_6</a>
-        <li><a href="../Typescript/Typescript.php">Typescript</a>
-        <li><a href="../Ajax/Ajax.php">Ajax</a></li>
-        <li><a href="../PhP/PhP.php">PhP</a></li>
-        <li><a href="../CodeIgniter/ci.php">Code Igniter</a></li>
-	    <li><a href="../Java_Web/Java_Web.php">Java_Web</a></li>
-        <li><a href="../Web%20Applications/Web_Apps.php">Web Applications</a></li>
-        <li><a href="../MySQL/MySQL.php">MySQL</a></li>
-        <li><a href="../SEO/Seo.php">SEO</a></li>
->>>>>>> 3587dca0c4e92bcc89d4599b36d9f4ed02a23609
     </ul>    
 </li>
 <li onmouseover='' ><a>Programming</a>
