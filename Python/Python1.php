@@ -87,15 +87,11 @@ numbers = list(range(4,10))
 for number in numbers:
     print(number)</pre>
 
-
-
-
-
-
 <br />
 <hr />
     
-<a href="Python.html">Previous Page</a>
+<a href="Python.php">Previous Page</a>
+<span class = "next"><a href="Python2.php">Next Page</a></span>
 <br /><br />  
 </div>
 
